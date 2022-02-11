@@ -67,9 +67,11 @@ namespace KKManager.Updater.Downloader
                 foreach (var updateSource in allSources)
                 {
                     var updateSourceInfo = new DownloadSourceInfo(updateSource);
-                    var task = Task.Run(async () => await UpdateThread(updateSourceInfo, cancellationToken),
-                        cancellationToken);
-                    runningTasks.Add(new Tuple<Task, DownloadSourceInfo>(task, updateSourceInfo));
+                    for (int i = 0; i < updateSource.MaxConcurrentDownloads; i++)
+                    {
+                        var task = Task.Run(async () => await UpdateThread(updateSourceInfo, cancellationToken), cancellationToken);
+                        runningTasks.Add(new Tuple<Task, DownloadSourceInfo>(task, updateSourceInfo));
+                    }
                 }
 
                 await Task.WhenAll(runningTasks.Select(x => x.Item1));

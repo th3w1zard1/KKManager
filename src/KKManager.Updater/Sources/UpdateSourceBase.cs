@@ -39,6 +39,10 @@ namespace KKManager.Updater.Sources
         /// </summary>
         public int DownloadPriority { get; }
 
+        public int Usage { get; protected set; }
+
+        public int MaxConcurrentDownloads { get; protected set; } = 1;
+
         public abstract void Dispose();
 
         public virtual async Task<List<UpdateTask>> GetUpdateItems(CancellationToken cancellationToken)
