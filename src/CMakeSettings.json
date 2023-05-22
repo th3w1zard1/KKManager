@@ -1,0 +1,44 @@
+{
+  "configurations": [
+    {
+      "name": "x86-Debug",
+      "generator": "Ninja",
+      "configurationType": "Debug",
+      "buildRoot": "${projectDir}\\build\\${name}",
+      "installRoot": "${projectDir}\\install\\${name}",
+      "cmakeCommandArgs": "",
+      //"buildCommandArgs": "-v:diag",
+      "ctestCommandArgs": "",
+      "variables": [
+        {
+          "name": "CMAKE_TOOLCHAIN_FILE",
+          "value": "${projectDir}/cmake/toolchain.cmake"
+        },
+        {
+          "name": "CMAKE_PREFIX_PATH",
+          "value": "${projectDir}/vendor/lib/debug"
+        }
+      ]
+    },
+    {
+      "name": "x86-Release",
+      "generator": "Ninja",
+      "configurationType": "Release",
+      "buildRoot": "${projectDir}\\build\\${name}",
+      "installRoot": "${projectDir}\\install\\${name}",
+      "cmakeCommandArgs": "",
+      "buildCommandArgs": "-v",
+      "ctestCommandArgs": "",
+      "variables": [
+        {
+          "name": "CMAKE_TOOLCHAIN_FILE",
+          "value": "${projectDir}/cmake/toolchain.cmake"
+        },
+        {
+          "name": "CMAKE_PREFIX_PATH",
+          "value": "${projectDir}/vendor/lib/release"
+        }
+      ]
+    }
+  ]
+}

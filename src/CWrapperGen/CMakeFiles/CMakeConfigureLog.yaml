@@ -1,0 +1,1602 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineSystem.cmake:204 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Windows - 10.0.19045 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+      Copyright (C) Microsoft Corporation. All rights reserved.
+      
+      Build started 4/29/2023 4:35:07 AM.
+      Project "C:\\Users\\boden\\Documents\\GitHub\\KKManager\\src\\CWrapperGen\\CMakeFiles\\3.26.3\\CompilerIdC\\CompilerIdC.vcxproj" on node 1 (default targets).
+      PrepareForBuild:
+        Creating directory "Debug\\".
+        Creating directory "Debug\\CompilerIdC.tlog\\".
+      InitializeBuildStatus:
+        Creating "Debug\\CompilerIdC.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+      ClCompile:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc142.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> C:\\Users\\boden\\Documents\\GitHub\\KKManager\\src\\CWrapperGen\\CMakeFiles\\3.26.3\\CompilerIdC\\CompilerIdC.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Deleting file "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+        Touching "Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate".
+      Done Building Project "C:\\Users\\boden\\Documents\\GitHub\\KKManager\\src\\CWrapperGen\\CMakeFiles\\3.26.3\\CompilerIdC\\CompilerIdC.vcxproj" (default targets).
+      
+      Build succeeded.
+          0 Warning(s)
+          0 Error(s)
+      
+      Time Elapsed 00:00:00.86
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        C:/Users/boden/Documents/GitHub/KKManager/src/CWrapperGen/CMakeFiles/3.26.3/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+      Copyright (C) Microsoft Corporation. All rights reserved.
+      
+      Build started 4/29/2023 4:35:08 AM.
+      Project "C:\\Users\\boden\\Documents\\GitHub\\KKManager\\src\\CWrapperGen\\CMakeFiles\\3.26.3\\CompilerIdCXX\\CompilerIdCXX.vcxproj" on node 1 (default targets).
+      PrepareForBuild:
+        Creating directory "Debug\\".
+        Creating directory "Debug\\CompilerIdCXX.tlog\\".
+      InitializeBuildStatus:
+        Creating "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+      ClCompile:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc142.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> C:\\Users\\boden\\Documents\\GitHub\\KKManager\\src\\CWrapperGen\\CMakeFiles\\3.26.3\\CompilerIdCXX\\CompilerIdCXX.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Deleting file "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+        Touching "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
+      Done Building Project "C:\\Users\\boden\\Documents\\GitHub\\KKManager\\src\\CWrapperGen\\CMakeFiles\\3.26.3\\CompilerIdCXX\\CompilerIdCXX.vcxproj" (default targets).
+      
+      Build succeeded.
+          0 Warning(s)
+          0 Error(s)
+      
+      Time Elapsed 00:00:00.67
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        C:/Users/boden/Documents/GitHub/KKManager/src/CWrapperGen/CMakeFiles/3.26.3/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/Users/boden/Documents/GitHub/KKManager/src/CWrapperGen/CMakeFiles/CMakeScratch/TryCompile-f3pby8"
+      binary: "C:/Users/boden/Documents/GitHub/KKManager/src/CWrapperGen/CMakeFiles/CMakeScratch/TryCompile-f3pby8"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: C:/Users/boden/Documents/GitHub/KKManager/src/CWrapperGen/CMakeFiles/CMakeScratch/TryCompile-f3pby8
+        
+        Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_bda1d.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+        Copyright (C) Microsoft Corporation. All rights reserved.
+        
+        Build started 4/29/2023 4:35:09 AM.
+        Project "C:\\Users\\boden\\Documents\\GitHub\\KKManager\\src\\CWrapperGen\\CMakeFiles\\CMakeScratch\\TryCompile-f3pby8\\cmTC_bda1d.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_bda1d.dir\\Debug\\".
+          Creating directory "C:\\Users\\boden\\Documents\\GitHub\\KKManager\\src\\CWrapperGen\\CMakeFiles\\CMakeScratch\\TryCompile-f3pby8\\Debug\\".
+          Creating directory "cmTC_bda1d.dir\\Debug\\cmTC_bda1d.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_bda1d.dir\\Debug\\cmTC_bda1d.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_bda1d.dir\\Debug\\\\" /Fd"cmTC_bda1d.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.26\\Modules\\CMakeCCompilerABI.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30148 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          CMakeCCompilerABI.c
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_bda1d.dir\\Debug\\\\" /Fd"cmTC_bda1d.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.26\\Modules\\CMakeCCompilerABI.c"
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\boden\\Documents\\GitHub\\KKManager\\src\\CWrapperGen\\CMakeFiles\\CMakeScratch\\TryCompile-f3pby8\\Debug\\cmTC_bda1d.exe" /INCREMENTAL /ILK:"cmTC_bda1d.dir\\Debug\\cmTC_bda1d.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/boden/Documents/GitHub/KKManager/src/CWrapperGen/CMakeFiles/CMakeScratch/TryCompile-f3pby8/Debug/cmTC_bda1d.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/boden/Documents/GitHub/KKManager/src/CWrapperGen/CMakeFiles/CMakeScratch/TryCompile-f3pby8/Debug/cmTC_bda1d.lib" /MACHINE:X64  /machine:x64 cmTC_bda1d.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_bda1d.vcxproj -> C:\\Users\\boden\\Documents\\GitHub\\KKManager\\src\\CWrapperGen\\CMakeFiles\\CMakeScratch\\TryCompile-f3pby8\\Debug\\cmTC_bda1d.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_bda1d.dir\\Debug\\cmTC_bda1d.tlog\\unsuccessfulbuild".
+          Touching "cmTC_bda1d.dir\\Debug\\cmTC_bda1d.tlog\\cmTC_bda1d.lastbuildstate".
+        Done Building Project "C:\\Users\\boden\\Documents\\GitHub\\KKManager\\src\\CWrapperGen\\CMakeFiles\\CMakeScratch\\TryCompile-f3pby8\\cmTC_bda1d.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.64
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/Users/boden/Documents/GitHub/KKManager/src/CWrapperGen/CMakeFiles/CMakeScratch/TryCompile-orcz8q"
+      binary: "C:/Users/boden/Documents/GitHub/KKManager/src/CWrapperGen/CMakeFiles/CMakeScratch/TryCompile-orcz8q"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: C:/Users/boden/Documents/GitHub/KKManager/src/CWrapperGen/CMakeFiles/CMakeScratch/TryCompile-orcz8q
+        
+        Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_361aa.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+        Copyright (C) Microsoft Corporation. All rights reserved.
+        
+        Build started 4/29/2023 4:35:10 AM.
+        Project "C:\\Users\\boden\\Documents\\GitHub\\KKManager\\src\\CWrapperGen\\CMakeFiles\\CMakeScratch\\TryCompile-orcz8q\\cmTC_361aa.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_361aa.dir\\Debug\\".
+          Creating directory "C:\\Users\\boden\\Documents\\GitHub\\KKManager\\src\\CWrapperGen\\CMakeFiles\\CMakeScratch\\TryCompile-orcz8q\\Debug\\".
+          Creating directory "cmTC_361aa.dir\\Debug\\cmTC_361aa.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_361aa.dir\\Debug\\cmTC_361aa.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_361aa.dir\\Debug\\\\" /Fd"cmTC_361aa.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.26\\Modules\\CMakeCXXCompilerABI.cpp"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30148 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          CMakeCXXCompilerABI.cpp
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_361aa.dir\\Debug\\\\" /Fd"cmTC_361aa.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.26\\Modules\\CMakeCXXCompilerABI.cpp"
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\boden\\Documents\\GitHub\\KKManager\\src\\CWrapperGen\\CMakeFiles\\CMakeScratch\\TryCompile-orcz8q\\Debug\\cmTC_361aa.exe" /INCREMENTAL /ILK:"cmTC_361aa.dir\\Debug\\cmTC_361aa.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/boden/Documents/GitHub/KKManager/src/CWrapperGen/CMakeFiles/CMakeScratch/TryCompile-orcz8q/Debug/cmTC_361aa.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/boden/Documents/GitHub/KKManager/src/CWrapperGen/CMakeFiles/CMakeScratch/TryCompile-orcz8q/Debug/cmTC_361aa.lib" /MACHINE:X64  /machine:x64 cmTC_361aa.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_361aa.vcxproj -> C:\\Users\\boden\\Documents\\GitHub\\KKManager\\src\\CWrapperGen\\CMakeFiles\\CMakeScratch\\TryCompile-orcz8q\\Debug\\cmTC_361aa.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_361aa.dir\\Debug\\cmTC_361aa.tlog\\unsuccessfulbuild".
+          Touching "cmTC_361aa.dir\\Debug\\cmTC_361aa.tlog\\cmTC_361aa.lastbuildstate".
+        Done Building Project "C:\\Users\\boden\\Documents\\GitHub\\KKManager\\src\\CWrapperGen\\CMakeFiles\\CMakeScratch\\TryCompile-orcz8q\\cmTC_361aa.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.65
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCSharpCompiler.cmake:23 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (enable_language)"
+    message: |
+      Compiling the CSharp compiler identification source file "CMakeCSharpCompilerId.cs" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+      Copyright (C) Microsoft Corporation. All rights reserved.
+      
+      Build started 4/29/2023 4:35:11 AM.
+      Project "C:\\Users\\boden\\Documents\\GitHub\\KKManager\\src\\CWrapperGen\\CMakeFiles\\3.26.3\\CompilerIdCSharp\\CompilerIdCSharp.csproj" on node 1 (default targets).
+      PrepareForBuild:
+        Creating directory "obj\\x64\\Debug\\".
+      CoreCompile:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\MSBuild\\Current\\Bin\\Roslyn\\csc.exe /noconfig /nowarn:1701,1702 /fullpaths /nostdlib+ /define:Platformx64;PlatformToolsetv142 /highentropyva- /reference:"C:\\Program Files (x86)\\Reference Assemblies\\Microsoft\\Framework\\.NETFramework\\v4.0\\mscorlib.dll" /reference:"C:\\Program Files (x86)\\Reference Assemblies\\Microsoft\\Framework\\.NETFramework\\v4.0\\System.Core.dll" /debug+ /out:obj\\x64\\Debug\\CompilerIdCSharp.exe /target:exe /utf8output /langversion:7.3 /analyzerconfig:C:\\Users\\boden\\Documents\\GitHub\\KKManager\\src\\.editorconfig CMakeCSharpCompilerId.cs "obj\\x64\\Debug\\.NETFramework,Version=v4.0.AssemblyAttributes.cs"
+        CompilerServer: server - server processed compilation - d52e31d6-41f5-4cd4-9f14-3265cf6dce62
+      CopyFilesToOutputDirectory:
+        Copying file from "C:\\Users\\boden\\Documents\\GitHub\\KKManager\\src\\CWrapperGen\\CMakeFiles\\3.26.3\\CompilerIdCSharp\\obj\\x64\\Debug\\CompilerIdCSharp.exe" to "C:\\Users\\boden\\Documents\\GitHub\\KKManager\\src\\CWrapperGen\\CMakeFiles\\3.26.3\\CompilerIdCSharp\\CompilerIdCSharp.exe".
+        CompilerIdCSharp -> C:\\Users\\boden\\Documents\\GitHub\\KKManager\\src\\CWrapperGen\\CMakeFiles\\3.26.3\\CompilerIdCSharp\\CompilerIdCSharp.exe
+        Copying file from "C:\\Users\\boden\\Documents\\GitHub\\KKManager\\src\\CWrapperGen\\CMakeFiles\\3.26.3\\CompilerIdCSharp\\obj\\x64\\Debug\\CompilerIdCSharp.pdb" to "C:\\Users\\boden\\Documents\\GitHub\\KKManager\\src\\CWrapperGen\\CMakeFiles\\3.26.3\\CompilerIdCSharp\\CompilerIdCSharp.pdb".
+      PostBuildEvent:
+        if not "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\MSBuild\\Current\\Bin\\Roslyn"=="" if exist "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\MSBuild\\Current\\Bin\\Roslyn\\csc.exe" set _CSC=C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\MSBuild\\Current\\Bin\\Roslyn
+        if exist "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\MSBuild\\Current\\Bin\\csc.exe" set _CSC=C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\MSBuild\\Current\\Bin
+        if "%_CSC%"=="" exit -1
+        @echo CMAKE_CSharp_COMPILER=%_CSC%\\csc.exe
+        CMAKE_CSharp_COMPILER=C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\MSBuild\\Current\\Bin\\Roslyn\\csc.exe
+      Done Building Project "C:\\Users\\boden\\Documents\\GitHub\\KKManager\\src\\CWrapperGen\\CMakeFiles\\3.26.3\\CompilerIdCSharp\\CompilerIdCSharp.csproj" (default targets).
+      
+      Build succeeded.
+          0 Warning(s)
+          0 Error(s)
+      
+      Time Elapsed 00:00:00.30
+      
+      
+      Compilation of the CSharp compiler identification source "CMakeCSharpCompilerId.cs" produced "CompilerIdCSharp.csproj"
+      
+      Compilation of the CSharp compiler identification source "CMakeCSharpCompilerId.cs" produced "CompilerIdCSharp.exe"
+      
+      Compilation of the CSharp compiler identification source "CMakeCSharpCompilerId.cs" produced "CompilerIdCSharp.pdb"
+      
+      The CSharp compiler identification could not be found in:
+        C:/Users/boden/Documents/GitHub/KKManager/src/CWrapperGen/CMakeFiles/3.26.3/CompilerIdCSharp/CompilerIdCSharp.csproj
+      
+      The CSharp compiler identification is Microsoft Visual Studio, found in:
+        C:/Users/boden/Documents/GitHub/KKManager/src/CWrapperGen/CMakeFiles/3.26.3/CompilerIdCSharp/CompilerIdCSharp.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeTestCSharpCompiler.cmake:34 (try_compile)"
+      - "CMakeLists.txt:3 (enable_language)"
+    checks:
+      - "Check for working C# compiler: C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/Roslyn/csc.exe"
+    directories:
+      source: "C:/Users/boden/Documents/GitHub/KKManager/src/CWrapperGen/CMakeFiles/CMakeScratch/TryCompile-tscup4"
+      binary: "C:/Users/boden/Documents/GitHub/KKManager/src/CWrapperGen/CMakeFiles/CMakeScratch/TryCompile-tscup4"
+    cmakeVariables:
+      CMAKE_CSharp_FLAGS: "/platform:x64 /define:TRACE"
+      CMAKE_CSharp_FLAGS_DEBUG: "/debug:full /optimize- /warn:3 /errorreport:prompt /define:DEBUG"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_CSharp_COMPILER_WORKS"
+      cached: true
+      stdout: |
+        Change Dir: C:/Users/boden/Documents/GitHub/KKManager/src/CWrapperGen/CMakeFiles/CMakeScratch/TryCompile-tscup4
+        
+        Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_c78b9.csproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+        Copyright (C) Microsoft Corporation. All rights reserved.
+        
+        Build started 4/29/2023 4:35:11 AM.
+        Project "C:\\Users\\boden\\Documents\\GitHub\\KKManager\\src\\CWrapperGen\\CMakeFiles\\CMakeScratch\\TryCompile-tscup4\\cmTC_c78b9.csproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "C:\\Users\\boden\\Documents\\GitHub\\KKManager\\src\\CWrapperGen\\CMakeFiles\\CMakeScratch\\TryCompile-tscup4\\Debug\\".
+          Creating directory "obj\\x64\\Debug\\".
+        CoreCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\MSBuild\\Current\\Bin\\Roslyn\\csc.exe /noconfig /nowarn:1701,1702 /fullpaths /nostdlib+ /platform:x64 /errorreport:prompt /warn:3 /define:TRACE;DEBUG /highentropyva- /reference:"C:\\Program Files (x86)\\Reference Assemblies\\Microsoft\\Framework\\.NETFramework\\v4.0\\mscorlib.dll" /reference:"C:\\Program Files (x86)\\Reference Assemblies\\Microsoft\\Framework\\.NETFramework\\v4.0\\System.Core.dll" /debug+ /debug:full /optimize- /out:obj\\x64\\Debug\\cmTC_c78b9.exe /target:exe /utf8output /langversion:7.3 /analyzerconfig:C:\\Users\\boden\\Documents\\GitHub\\KKManager\\src\\.editorconfig C:\\Users\\boden\\Documents\\GitHub\\KKManager\\src\\CWrapperGen\\CMakeFiles\\CMakeScratch\\TryCompile-tscup4\\testCSharpCompiler.cs "obj\\x64\\Debug\\.NETFramework,Version=v4.0.AssemblyAttributes.cs"
+          CompilerServer: server - server processed compilation - 7ccccffc-5cb6-4e46-b529-3fe8e403be0e
+        CopyFilesToOutputDirectory:
+          Copying file from "C:\\Users\\boden\\Documents\\GitHub\\KKManager\\src\\CWrapperGen\\CMakeFiles\\CMakeScratch\\TryCompile-tscup4\\obj\\x64\\Debug\\cmTC_c78b9.exe" to "C:\\Users\\boden\\Documents\\GitHub\\KKManager\\src\\CWrapperGen\\CMakeFiles\\CMakeScratch\\TryCompile-tscup4\\Debug\\cmTC_c78b9.exe".
+          cmTC_c78b9 -> C:\\Users\\boden\\Documents\\GitHub\\KKManager\\src\\CWrapperGen\\CMakeFiles\\CMakeScratch\\TryCompile-tscup4\\Debug\\cmTC_c78b9.exe
+          Copying file from "C:\\Users\\boden\\Documents\\GitHub\\KKManager\\src\\CWrapperGen\\CMakeFiles\\CMakeScratch\\TryCompile-tscup4\\obj\\x64\\Debug\\cmTC_c78b9.pdb" to "C:\\Users\\boden\\Documents\\GitHub\\KKManager\\src\\CWrapperGen\\CMakeFiles\\CMakeScratch\\TryCompile-tscup4\\Debug\\cmTC_c78b9.pdb".
+        Done Building Project "C:\\Users\\boden\\Documents\\GitHub\\KKManager\\src\\CWrapperGen\\CMakeFiles\\CMakeScratch\\TryCompile-tscup4\\cmTC_c78b9.csproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.26
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CheckIncludeFile.cmake:95 (try_compile)"
+      - "vendor/src/unzipped/swigwin-4.1.1/CMakeLists.txt:59 (check_include_file)"
+    checks:
+      - "Looking for inttypes.h"
+    directories:
+      source: "C:/Users/boden/Documents/GitHub/KKManager/src/CWrapperGen/CMakeFiles/CMakeScratch/TryCompile-so0146"
+      binary: "C:/Users/boden/Documents/GitHub/KKManager/src/CWrapperGen/CMakeFiles/CMakeScratch/TryCompile-so0146"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/boden/Documents/GitHub/KKManager/src/vendor/src/unzipped/swigwin-4.1.1/Tools/cmake"
+    buildResult:
+      variable: "HAVE_INTTYPES_H"
+      cached: true
+      stdout: |
+        Change Dir: C:/Users/boden/Documents/GitHub/KKManager/src/CWrapperGen/CMakeFiles/CMakeScratch/TryCompile-so0146
+        
+        Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_129e0.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+        Copyright (C) Microsoft Corporation. All rights reserved.
+        
+        Build started 4/29/2023 8:37:19 AM.
+        Project "C:\\Users\\boden\\Documents\\GitHub\\KKManager\\src\\CWrapperGen\\CMakeFiles\\CMakeScratch\\TryCompile-so0146\\cmTC_129e0.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_129e0.dir\\Debug\\".
+          Creating directory "C:\\Users\\boden\\Documents\\GitHub\\KKManager\\src\\CWrapperGen\\CMakeFiles\\CMakeScratch\\TryCompile-so0146\\Debug\\".
+          Creating directory "cmTC_129e0.dir\\Debug\\cmTC_129e0.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_129e0.dir\\Debug\\cmTC_129e0.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_129e0.dir\\Debug\\\\" /Fd"cmTC_129e0.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\boden\\Documents\\GitHub\\KKManager\\src\\CWrapperGen\\CMakeFiles\\CMakeScratch\\TryCompile-so0146\\CheckIncludeFile.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30148 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          CheckIncludeFile.c
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_129e0.dir\\Debug\\\\" /Fd"cmTC_129e0.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\boden\\Documents\\GitHub\\KKManager\\src\\CWrapperGen\\CMakeFiles\\CMakeScratch\\TryCompile-so0146\\CheckIncludeFile.c"
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\boden\\Documents\\GitHub\\KKManager\\src\\CWrapperGen\\CMakeFiles\\CMakeScratch\\TryCompile-so0146\\Debug\\cmTC_129e0.exe" /INCREMENTAL /ILK:"cmTC_129e0.dir\\Debug\\cmTC_129e0.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/boden/Documents/GitHub/KKManager/src/CWrapperGen/CMakeFiles/CMakeScratch/TryCompile-so0146/Debug/cmTC_129e0.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/boden/Documents/GitHub/KKManager/src/CWrapperGen/CMakeFiles/CMakeScratch/TryCompile-so0146/Debug/cmTC_129e0.lib" /MACHINE:X64  /machine:x64 cmTC_129e0.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_129e0.vcxproj -> C:\\Users\\boden\\Documents\\GitHub\\KKManager\\src\\CWrapperGen\\CMakeFiles\\CMakeScratch\\TryCompile-so0146\\Debug\\cmTC_129e0.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_129e0.dir\\Debug\\cmTC_129e0.tlog\\unsuccessfulbuild".
+          Touching "cmTC_129e0.dir\\Debug\\cmTC_129e0.tlog\\cmTC_129e0.lastbuildstate".
+        Done Building Project "C:\\Users\\boden\\Documents\\GitHub\\KKManager\\src\\CWrapperGen\\CMakeFiles\\CMakeScratch\\TryCompile-so0146\\cmTC_129e0.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:01.11
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CheckIncludeFile.cmake:95 (try_compile)"
+      - "vendor/src/unzipped/swigwin-4.1.1/CMakeLists.txt:60 (check_include_file)"
+    checks:
+      - "Looking for stddef.h"
+    directories:
+      source: "C:/Users/boden/Documents/GitHub/KKManager/src/CWrapperGen/CMakeFiles/CMakeScratch/TryCompile-lq9sts"
+      binary: "C:/Users/boden/Documents/GitHub/KKManager/src/CWrapperGen/CMakeFiles/CMakeScratch/TryCompile-lq9sts"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/boden/Documents/GitHub/KKManager/src/vendor/src/unzipped/swigwin-4.1.1/Tools/cmake"
+    buildResult:
+      variable: "HAVE_STDDEF_H"
+      cached: true
+      stdout: |
+        Change Dir: C:/Users/boden/Documents/GitHub/KKManager/src/CWrapperGen/CMakeFiles/CMakeScratch/TryCompile-lq9sts
+        
+        Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_cebd6.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+        Copyright (C) Microsoft Corporation. All rights reserved.
+        
+        Build started 4/29/2023 8:37:21 AM.
+        Project "C:\\Users\\boden\\Documents\\GitHub\\KKManager\\src\\CWrapperGen\\CMakeFiles\\CMakeScratch\\TryCompile-lq9sts\\cmTC_cebd6.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_cebd6.dir\\Debug\\".
+          Creating directory "C:\\Users\\boden\\Documents\\GitHub\\KKManager\\src\\CWrapperGen\\CMakeFiles\\CMakeScratch\\TryCompile-lq9sts\\Debug\\".
+          Creating directory "cmTC_cebd6.dir\\Debug\\cmTC_cebd6.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_cebd6.dir\\Debug\\cmTC_cebd6.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_cebd6.dir\\Debug\\\\" /Fd"cmTC_cebd6.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\boden\\Documents\\GitHub\\KKManager\\src\\CWrapperGen\\CMakeFiles\\CMakeScratch\\TryCompile-lq9sts\\CheckIncludeFile.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30148 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          CheckIncludeFile.c
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_cebd6.dir\\Debug\\\\" /Fd"cmTC_cebd6.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\boden\\Documents\\GitHub\\KKManager\\src\\CWrapperGen\\CMakeFiles\\CMakeScratch\\TryCompile-lq9sts\\CheckIncludeFile.c"
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\boden\\Documents\\GitHub\\KKManager\\src\\CWrapperGen\\CMakeFiles\\CMakeScratch\\TryCompile-lq9sts\\Debug\\cmTC_cebd6.exe" /INCREMENTAL /ILK:"cmTC_cebd6.dir\\Debug\\cmTC_cebd6.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/boden/Documents/GitHub/KKManager/src/CWrapperGen/CMakeFiles/CMakeScratch/TryCompile-lq9sts/Debug/cmTC_cebd6.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/boden/Documents/GitHub/KKManager/src/CWrapperGen/CMakeFiles/CMakeScratch/TryCompile-lq9sts/Debug/cmTC_cebd6.lib" /MACHINE:X64  /machine:x64 cmTC_cebd6.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_cebd6.vcxproj -> C:\\Users\\boden\\Documents\\GitHub\\KKManager\\src\\CWrapperGen\\CMakeFiles\\CMakeScratch\\TryCompile-lq9sts\\Debug\\cmTC_cebd6.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_cebd6.dir\\Debug\\cmTC_cebd6.tlog\\unsuccessfulbuild".
+          Touching "cmTC_cebd6.dir\\Debug\\cmTC_cebd6.tlog\\cmTC_cebd6.lastbuildstate".
+        Done Building Project "C:\\Users\\boden\\Documents\\GitHub\\KKManager\\src\\CWrapperGen\\CMakeFiles\\CMakeScratch\\TryCompile-lq9sts\\cmTC_cebd6.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.71
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CheckIncludeFile.cmake:95 (try_compile)"
+      - "vendor/src/unzipped/swigwin-4.1.1/CMakeLists.txt:61 (check_include_file)"
+    checks:
+      - "Looking for stdint.h"
+    directories:
+      source: "C:/Users/boden/Documents/GitHub/KKManager/src/CWrapperGen/CMakeFiles/CMakeScratch/TryCompile-q0wvnb"
+      binary: "C:/Users/boden/Documents/GitHub/KKManager/src/CWrapperGen/CMakeFiles/CMakeScratch/TryCompile-q0wvnb"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/boden/Documents/GitHub/KKManager/src/vendor/src/unzipped/swigwin-4.1.1/Tools/cmake"
+    buildResult:
+      variable: "HAVE_STDINT_H"
+      cached: true
+      stdout: |
+        Change Dir: C:/Users/boden/Documents/GitHub/KKManager/src/CWrapperGen/CMakeFiles/CMakeScratch/TryCompile-q0wvnb
+        
+        Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_46b27.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+        Copyright (C) Microsoft Corporation. All rights reserved.
+        
+        Build started 4/29/2023 8:37:22 AM.
+        Project "C:\\Users\\boden\\Documents\\GitHub\\KKManager\\src\\CWrapperGen\\CMakeFiles\\CMakeScratch\\TryCompile-q0wvnb\\cmTC_46b27.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_46b27.dir\\Debug\\".
+          Creating directory "C:\\Users\\boden\\Documents\\GitHub\\KKManager\\src\\CWrapperGen\\CMakeFiles\\CMakeScratch\\TryCompile-q0wvnb\\Debug\\".
+          Creating directory "cmTC_46b27.dir\\Debug\\cmTC_46b27.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_46b27.dir\\Debug\\cmTC_46b27.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_46b27.dir\\Debug\\\\" /Fd"cmTC_46b27.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\boden\\Documents\\GitHub\\KKManager\\src\\CWrapperGen\\CMakeFiles\\CMakeScratch\\TryCompile-q0wvnb\\CheckIncludeFile.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30148 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          CheckIncludeFile.c
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_46b27.dir\\Debug\\\\" /Fd"cmTC_46b27.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\boden\\Documents\\GitHub\\KKManager\\src\\CWrapperGen\\CMakeFiles\\CMakeScratch\\TryCompile-q0wvnb\\CheckIncludeFile.c"
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\boden\\Documents\\GitHub\\KKManager\\src\\CWrapperGen\\CMakeFiles\\CMakeScratch\\TryCompile-q0wvnb\\Debug\\cmTC_46b27.exe" /INCREMENTAL /ILK:"cmTC_46b27.dir\\Debug\\cmTC_46b27.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/boden/Documents/GitHub/KKManager/src/CWrapperGen/CMakeFiles/CMakeScratch/TryCompile-q0wvnb/Debug/cmTC_46b27.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/boden/Documents/GitHub/KKManager/src/CWrapperGen/CMakeFiles/CMakeScratch/TryCompile-q0wvnb/Debug/cmTC_46b27.lib" /MACHINE:X64  /machine:x64 cmTC_46b27.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_46b27.vcxproj -> C:\\Users\\boden\\Documents\\GitHub\\KKManager\\src\\CWrapperGen\\CMakeFiles\\CMakeScratch\\TryCompile-q0wvnb\\Debug\\cmTC_46b27.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_46b27.dir\\Debug\\cmTC_46b27.tlog\\unsuccessfulbuild".
+          Touching "cmTC_46b27.dir\\Debug\\cmTC_46b27.tlog\\cmTC_46b27.lastbuildstate".
+        Done Building Project "C:\\Users\\boden\\Documents\\GitHub\\KKManager\\src\\CWrapperGen\\CMakeFiles\\CMakeScratch\\TryCompile-q0wvnb\\cmTC_46b27.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.68
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CheckIncludeFile.cmake:95 (try_compile)"
+      - "vendor/src/unzipped/swigwin-4.1.1/CMakeLists.txt:62 (check_include_file)"
+    checks:
+      - "Looking for stdio.h"
+    directories:
+      source: "C:/Users/boden/Documents/GitHub/KKManager/src/CWrapperGen/CMakeFiles/CMakeScratch/TryCompile-yj02r8"
+      binary: "C:/Users/boden/Documents/GitHub/KKManager/src/CWrapperGen/CMakeFiles/CMakeScratch/TryCompile-yj02r8"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/boden/Documents/GitHub/KKManager/src/vendor/src/unzipped/swigwin-4.1.1/Tools/cmake"
+    buildResult:
+      variable: "HAVE_STDIO_H"
+      cached: true
+      stdout: |
+        Change Dir: C:/Users/boden/Documents/GitHub/KKManager/src/CWrapperGen/CMakeFiles/CMakeScratch/TryCompile-yj02r8
+        
+        Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_8451f.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+        Copyright (C) Microsoft Corporation. All rights reserved.
+        
+        Build started 4/29/2023 8:37:23 AM.
+        Project "C:\\Users\\boden\\Documents\\GitHub\\KKManager\\src\\CWrapperGen\\CMakeFiles\\CMakeScratch\\TryCompile-yj02r8\\cmTC_8451f.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_8451f.dir\\Debug\\".
+          Creating directory "C:\\Users\\boden\\Documents\\GitHub\\KKManager\\src\\CWrapperGen\\CMakeFiles\\CMakeScratch\\TryCompile-yj02r8\\Debug\\".
+          Creating directory "cmTC_8451f.dir\\Debug\\cmTC_8451f.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_8451f.dir\\Debug\\cmTC_8451f.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_8451f.dir\\Debug\\\\" /Fd"cmTC_8451f.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\boden\\Documents\\GitHub\\KKManager\\src\\CWrapperGen\\CMakeFiles\\CMakeScratch\\TryCompile-yj02r8\\CheckIncludeFile.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30148 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          CheckIncludeFile.c
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_8451f.dir\\Debug\\\\" /Fd"cmTC_8451f.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\boden\\Documents\\GitHub\\KKManager\\src\\CWrapperGen\\CMakeFiles\\CMakeScratch\\TryCompile-yj02r8\\CheckIncludeFile.c"
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\boden\\Documents\\GitHub\\KKManager\\src\\CWrapperGen\\CMakeFiles\\CMakeScratch\\TryCompile-yj02r8\\Debug\\cmTC_8451f.exe" /INCREMENTAL /ILK:"cmTC_8451f.dir\\Debug\\cmTC_8451f.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/boden/Documents/GitHub/KKManager/src/CWrapperGen/CMakeFiles/CMakeScratch/TryCompile-yj02r8/Debug/cmTC_8451f.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/boden/Documents/GitHub/KKManager/src/CWrapperGen/CMakeFiles/CMakeScratch/TryCompile-yj02r8/Debug/cmTC_8451f.lib" /MACHINE:X64  /machine:x64 cmTC_8451f.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_8451f.vcxproj -> C:\\Users\\boden\\Documents\\GitHub\\KKManager\\src\\CWrapperGen\\CMakeFiles\\CMakeScratch\\TryCompile-yj02r8\\Debug\\cmTC_8451f.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_8451f.dir\\Debug\\cmTC_8451f.tlog\\unsuccessfulbuild".
+          Touching "cmTC_8451f.dir\\Debug\\cmTC_8451f.tlog\\cmTC_8451f.lastbuildstate".
+        Done Building Project "C:\\Users\\boden\\Documents\\GitHub\\KKManager\\src\\CWrapperGen\\CMakeFiles\\CMakeScratch\\TryCompile-yj02r8\\cmTC_8451f.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.68
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CheckIncludeFile.cmake:95 (try_compile)"
+      - "vendor/src/unzipped/swigwin-4.1.1/CMakeLists.txt:63 (check_include_file)"
+    checks:
+      - "Looking for stdlib.h"
+    directories:
+      source: "C:/Users/boden/Documents/GitHub/KKManager/src/CWrapperGen/CMakeFiles/CMakeScratch/TryCompile-6swzxd"
+      binary: "C:/Users/boden/Documents/GitHub/KKManager/src/CWrapperGen/CMakeFiles/CMakeScratch/TryCompile-6swzxd"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/boden/Documents/GitHub/KKManager/src/vendor/src/unzipped/swigwin-4.1.1/Tools/cmake"
+    buildResult:
+      variable: "HAVE_STDLIB_H"
+      cached: true
+      stdout: |
+        Change Dir: C:/Users/boden/Documents/GitHub/KKManager/src/CWrapperGen/CMakeFiles/CMakeScratch/TryCompile-6swzxd
+        
+        Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_f1733.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+        Copyright (C) Microsoft Corporation. All rights reserved.
+        
+        Build started 4/29/2023 8:37:24 AM.
+        Project "C:\\Users\\boden\\Documents\\GitHub\\KKManager\\src\\CWrapperGen\\CMakeFiles\\CMakeScratch\\TryCompile-6swzxd\\cmTC_f1733.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_f1733.dir\\Debug\\".
+          Creating directory "C:\\Users\\boden\\Documents\\GitHub\\KKManager\\src\\CWrapperGen\\CMakeFiles\\CMakeScratch\\TryCompile-6swzxd\\Debug\\".
+          Creating directory "cmTC_f1733.dir\\Debug\\cmTC_f1733.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_f1733.dir\\Debug\\cmTC_f1733.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f1733.dir\\Debug\\\\" /Fd"cmTC_f1733.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\boden\\Documents\\GitHub\\KKManager\\src\\CWrapperGen\\CMakeFiles\\CMakeScratch\\TryCompile-6swzxd\\CheckIncludeFile.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30148 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          CheckIncludeFile.c
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f1733.dir\\Debug\\\\" /Fd"cmTC_f1733.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\boden\\Documents\\GitHub\\KKManager\\src\\CWrapperGen\\CMakeFiles\\CMakeScratch\\TryCompile-6swzxd\\CheckIncludeFile.c"
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\boden\\Documents\\GitHub\\KKManager\\src\\CWrapperGen\\CMakeFiles\\CMakeScratch\\TryCompile-6swzxd\\Debug\\cmTC_f1733.exe" /INCREMENTAL /ILK:"cmTC_f1733.dir\\Debug\\cmTC_f1733.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/boden/Documents/GitHub/KKManager/src/CWrapperGen/CMakeFiles/CMakeScratch/TryCompile-6swzxd/Debug/cmTC_f1733.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/boden/Documents/GitHub/KKManager/src/CWrapperGen/CMakeFiles/CMakeScratch/TryCompile-6swzxd/Debug/cmTC_f1733.lib" /MACHINE:X64  /machine:x64 cmTC_f1733.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_f1733.vcxproj -> C:\\Users\\boden\\Documents\\GitHub\\KKManager\\src\\CWrapperGen\\CMakeFiles\\CMakeScratch\\TryCompile-6swzxd\\Debug\\cmTC_f1733.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_f1733.dir\\Debug\\cmTC_f1733.tlog\\unsuccessfulbuild".
+          Touching "cmTC_f1733.dir\\Debug\\cmTC_f1733.tlog\\cmTC_f1733.lastbuildstate".
+        Done Building Project "C:\\Users\\boden\\Documents\\GitHub\\KKManager\\src\\CWrapperGen\\CMakeFiles\\CMakeScratch\\TryCompile-6swzxd\\cmTC_f1733.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.70
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CheckIncludeFile.cmake:95 (try_compile)"
+      - "vendor/src/unzipped/swigwin-4.1.1/CMakeLists.txt:64 (check_include_file)"
+    checks:
+      - "Looking for string.h"
+    directories:
+      source: "C:/Users/boden/Documents/GitHub/KKManager/src/CWrapperGen/CMakeFiles/CMakeScratch/TryCompile-mb128o"
+      binary: "C:/Users/boden/Documents/GitHub/KKManager/src/CWrapperGen/CMakeFiles/CMakeScratch/TryCompile-mb128o"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/boden/Documents/GitHub/KKManager/src/vendor/src/unzipped/swigwin-4.1.1/Tools/cmake"
+    buildResult:
+      variable: "HAVE_STRING_H"
+      cached: true
+      stdout: |
+        Change Dir: C:/Users/boden/Documents/GitHub/KKManager/src/CWrapperGen/CMakeFiles/CMakeScratch/TryCompile-mb128o
+        
+        Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_c3479.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+        Copyright (C) Microsoft Corporation. All rights reserved.
+        
+        Build started 4/29/2023 8:37:25 AM.
+        Project "C:\\Users\\boden\\Documents\\GitHub\\KKManager\\src\\CWrapperGen\\CMakeFiles\\CMakeScratch\\TryCompile-mb128o\\cmTC_c3479.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_c3479.dir\\Debug\\".
+          Creating directory "C:\\Users\\boden\\Documents\\GitHub\\KKManager\\src\\CWrapperGen\\CMakeFiles\\CMakeScratch\\TryCompile-mb128o\\Debug\\".
+          Creating directory "cmTC_c3479.dir\\Debug\\cmTC_c3479.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_c3479.dir\\Debug\\cmTC_c3479.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_c3479.dir\\Debug\\\\" /Fd"cmTC_c3479.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\boden\\Documents\\GitHub\\KKManager\\src\\CWrapperGen\\CMakeFiles\\CMakeScratch\\TryCompile-mb128o\\CheckIncludeFile.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30148 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          CheckIncludeFile.c
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_c3479.dir\\Debug\\\\" /Fd"cmTC_c3479.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\boden\\Documents\\GitHub\\KKManager\\src\\CWrapperGen\\CMakeFiles\\CMakeScratch\\TryCompile-mb128o\\CheckIncludeFile.c"
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\boden\\Documents\\GitHub\\KKManager\\src\\CWrapperGen\\CMakeFiles\\CMakeScratch\\TryCompile-mb128o\\Debug\\cmTC_c3479.exe" /INCREMENTAL /ILK:"cmTC_c3479.dir\\Debug\\cmTC_c3479.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/boden/Documents/GitHub/KKManager/src/CWrapperGen/CMakeFiles/CMakeScratch/TryCompile-mb128o/Debug/cmTC_c3479.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/boden/Documents/GitHub/KKManager/src/CWrapperGen/CMakeFiles/CMakeScratch/TryCompile-mb128o/Debug/cmTC_c3479.lib" /MACHINE:X64  /machine:x64 cmTC_c3479.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_c3479.vcxproj -> C:\\Users\\boden\\Documents\\GitHub\\KKManager\\src\\CWrapperGen\\CMakeFiles\\CMakeScratch\\TryCompile-mb128o\\Debug\\cmTC_c3479.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_c3479.dir\\Debug\\cmTC_c3479.tlog\\unsuccessfulbuild".
+          Touching "cmTC_c3479.dir\\Debug\\cmTC_c3479.tlog\\cmTC_c3479.lastbuildstate".
+        Done Building Project "C:\\Users\\boden\\Documents\\GitHub\\KKManager\\src\\CWrapperGen\\CMakeFiles\\CMakeScratch\\TryCompile-mb128o\\cmTC_c3479.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.68
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CheckIncludeFile.cmake:95 (try_compile)"
+      - "vendor/src/unzipped/swigwin-4.1.1/CMakeLists.txt:65 (check_include_file)"
+    checks:
+      - "Looking for strings.h"
+    directories:
+      source: "C:/Users/boden/Documents/GitHub/KKManager/src/CWrapperGen/CMakeFiles/CMakeScratch/TryCompile-084z9q"
+      binary: "C:/Users/boden/Documents/GitHub/KKManager/src/CWrapperGen/CMakeFiles/CMakeScratch/TryCompile-084z9q"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/boden/Documents/GitHub/KKManager/src/vendor/src/unzipped/swigwin-4.1.1/Tools/cmake"
+    buildResult:
+      variable: "HAVE_STRINGS_H"
+      cached: true
+      stdout: |
+        Change Dir: C:/Users/boden/Documents/GitHub/KKManager/src/CWrapperGen/CMakeFiles/CMakeScratch/TryCompile-084z9q
+        
+        Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_73c65.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+        Copyright (C) Microsoft Corporation. All rights reserved.
+        
+        Build started 4/29/2023 8:37:25 AM.
+        Project "C:\\Users\\boden\\Documents\\GitHub\\KKManager\\src\\CWrapperGen\\CMakeFiles\\CMakeScratch\\TryCompile-084z9q\\cmTC_73c65.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_73c65.dir\\Debug\\".
+          Creating directory "C:\\Users\\boden\\Documents\\GitHub\\KKManager\\src\\CWrapperGen\\CMakeFiles\\CMakeScratch\\TryCompile-084z9q\\Debug\\".
+          Creating directory "cmTC_73c65.dir\\Debug\\cmTC_73c65.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_73c65.dir\\Debug\\cmTC_73c65.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_73c65.dir\\Debug\\\\" /Fd"cmTC_73c65.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\boden\\Documents\\GitHub\\KKManager\\src\\CWrapperGen\\CMakeFiles\\CMakeScratch\\TryCompile-084z9q\\CheckIncludeFile.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30148 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          CheckIncludeFile.c
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_73c65.dir\\Debug\\\\" /Fd"cmTC_73c65.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\boden\\Documents\\GitHub\\KKManager\\src\\CWrapperGen\\CMakeFiles\\CMakeScratch\\TryCompile-084z9q\\CheckIncludeFile.c"
+        C:\\Users\\boden\\Documents\\GitHub\\KKManager\\src\\CWrapperGen\\CMakeFiles\\CMakeScratch\\TryCompile-084z9q\\CheckIncludeFile.c(1,10): fatal error C1083: Cannot open include file: 'strings.h': No such file or directory [C:\\Users\\boden\\Documents\\GitHub\\KKManager\\src\\CWrapperGen\\CMakeFiles\\CMakeScratch\\TryCompile-084z9q\\cmTC_73c65.vcxproj]
+        Done Building Project "C:\\Users\\boden\\Documents\\GitHub\\KKManager\\src\\CWrapperGen\\CMakeFiles\\CMakeScratch\\TryCompile-084z9q\\cmTC_73c65.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "C:\\Users\\boden\\Documents\\GitHub\\KKManager\\src\\CWrapperGen\\CMakeFiles\\CMakeScratch\\TryCompile-084z9q\\cmTC_73c65.vcxproj" (default target) (1) ->
+        (ClCompile target) -> 
+          C:\\Users\\boden\\Documents\\GitHub\\KKManager\\src\\CWrapperGen\\CMakeFiles\\CMakeScratch\\TryCompile-084z9q\\CheckIncludeFile.c(1,10): fatal error C1083: Cannot open include file: 'strings.h': No such file or directory [C:\\Users\\boden\\Documents\\GitHub\\KKManager\\src\\CWrapperGen\\CMakeFiles\\CMakeScratch\\TryCompile-084z9q\\cmTC_73c65.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:00.40
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CheckIncludeFile.cmake:95 (try_compile)"
+      - "vendor/src/unzipped/swigwin-4.1.1/CMakeLists.txt:66 (check_include_file)"
+    checks:
+      - "Looking for sys/stat.h"
+    directories:
+      source: "C:/Users/boden/Documents/GitHub/KKManager/src/CWrapperGen/CMakeFiles/CMakeScratch/TryCompile-chikjv"
+      binary: "C:/Users/boden/Documents/GitHub/KKManager/src/CWrapperGen/CMakeFiles/CMakeScratch/TryCompile-chikjv"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/boden/Documents/GitHub/KKManager/src/vendor/src/unzipped/swigwin-4.1.1/Tools/cmake"
+    buildResult:
+      variable: "HAVE_SYS_STAT_H"
+      cached: true
+      stdout: |
+        Change Dir: C:/Users/boden/Documents/GitHub/KKManager/src/CWrapperGen/CMakeFiles/CMakeScratch/TryCompile-chikjv
+        
+        Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_19f9f.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+        Copyright (C) Microsoft Corporation. All rights reserved.
+        
+        Build started 4/29/2023 8:37:26 AM.
+        Project "C:\\Users\\boden\\Documents\\GitHub\\KKManager\\src\\CWrapperGen\\CMakeFiles\\CMakeScratch\\TryCompile-chikjv\\cmTC_19f9f.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_19f9f.dir\\Debug\\".
+          Creating directory "C:\\Users\\boden\\Documents\\GitHub\\KKManager\\src\\CWrapperGen\\CMakeFiles\\CMakeScratch\\TryCompile-chikjv\\Debug\\".
+          Creating directory "cmTC_19f9f.dir\\Debug\\cmTC_19f9f.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_19f9f.dir\\Debug\\cmTC_19f9f.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_19f9f.dir\\Debug\\\\" /Fd"cmTC_19f9f.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\boden\\Documents\\GitHub\\KKManager\\src\\CWrapperGen\\CMakeFiles\\CMakeScratch\\TryCompile-chikjv\\CheckIncludeFile.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30148 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          CheckIncludeFile.c
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_19f9f.dir\\Debug\\\\" /Fd"cmTC_19f9f.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\boden\\Documents\\GitHub\\KKManager\\src\\CWrapperGen\\CMakeFiles\\CMakeScratch\\TryCompile-chikjv\\CheckIncludeFile.c"
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\boden\\Documents\\GitHub\\KKManager\\src\\CWrapperGen\\CMakeFiles\\CMakeScratch\\TryCompile-chikjv\\Debug\\cmTC_19f9f.exe" /INCREMENTAL /ILK:"cmTC_19f9f.dir\\Debug\\cmTC_19f9f.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/boden/Documents/GitHub/KKManager/src/CWrapperGen/CMakeFiles/CMakeScratch/TryCompile-chikjv/Debug/cmTC_19f9f.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/boden/Documents/GitHub/KKManager/src/CWrapperGen/CMakeFiles/CMakeScratch/TryCompile-chikjv/Debug/cmTC_19f9f.lib" /MACHINE:X64  /machine:x64 cmTC_19f9f.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_19f9f.vcxproj -> C:\\Users\\boden\\Documents\\GitHub\\KKManager\\src\\CWrapperGen\\CMakeFiles\\CMakeScratch\\TryCompile-chikjv\\Debug\\cmTC_19f9f.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_19f9f.dir\\Debug\\cmTC_19f9f.tlog\\unsuccessfulbuild".
+          Touching "cmTC_19f9f.dir\\Debug\\cmTC_19f9f.tlog\\cmTC_19f9f.lastbuildstate".
+        Done Building Project "C:\\Users\\boden\\Documents\\GitHub\\KKManager\\src\\CWrapperGen\\CMakeFiles\\CMakeScratch\\TryCompile-chikjv\\cmTC_19f9f.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.63
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CheckIncludeFile.cmake:95 (try_compile)"
+      - "vendor/src/unzipped/swigwin-4.1.1/CMakeLists.txt:67 (check_include_file)"
+    checks:
+      - "Looking for sys/types.h"
+    directories:
+      source: "C:/Users/boden/Documents/GitHub/KKManager/src/CWrapperGen/CMakeFiles/CMakeScratch/TryCompile-pgh5po"
+      binary: "C:/Users/boden/Documents/GitHub/KKManager/src/CWrapperGen/CMakeFiles/CMakeScratch/TryCompile-pgh5po"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/boden/Documents/GitHub/KKManager/src/vendor/src/unzipped/swigwin-4.1.1/Tools/cmake"
+    buildResult:
+      variable: "HAVE_SYS_TYPES_H"
+      cached: true
+      stdout: |
+        Change Dir: C:/Users/boden/Documents/GitHub/KKManager/src/CWrapperGen/CMakeFiles/CMakeScratch/TryCompile-pgh5po
+        
+        Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_3cdb1.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+        Copyright (C) Microsoft Corporation. All rights reserved.
+        
+        Build started 4/29/2023 8:37:27 AM.
+        Project "C:\\Users\\boden\\Documents\\GitHub\\KKManager\\src\\CWrapperGen\\CMakeFiles\\CMakeScratch\\TryCompile-pgh5po\\cmTC_3cdb1.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_3cdb1.dir\\Debug\\".
+          Creating directory "C:\\Users\\boden\\Documents\\GitHub\\KKManager\\src\\CWrapperGen\\CMakeFiles\\CMakeScratch\\TryCompile-pgh5po\\Debug\\".
+          Creating directory "cmTC_3cdb1.dir\\Debug\\cmTC_3cdb1.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_3cdb1.dir\\Debug\\cmTC_3cdb1.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_3cdb1.dir\\Debug\\\\" /Fd"cmTC_3cdb1.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\boden\\Documents\\GitHub\\KKManager\\src\\CWrapperGen\\CMakeFiles\\CMakeScratch\\TryCompile-pgh5po\\CheckIncludeFile.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30148 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          CheckIncludeFile.c
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_3cdb1.dir\\Debug\\\\" /Fd"cmTC_3cdb1.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\boden\\Documents\\GitHub\\KKManager\\src\\CWrapperGen\\CMakeFiles\\CMakeScratch\\TryCompile-pgh5po\\CheckIncludeFile.c"
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\boden\\Documents\\GitHub\\KKManager\\src\\CWrapperGen\\CMakeFiles\\CMakeScratch\\TryCompile-pgh5po\\Debug\\cmTC_3cdb1.exe" /INCREMENTAL /ILK:"cmTC_3cdb1.dir\\Debug\\cmTC_3cdb1.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/boden/Documents/GitHub/KKManager/src/CWrapperGen/CMakeFiles/CMakeScratch/TryCompile-pgh5po/Debug/cmTC_3cdb1.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/boden/Documents/GitHub/KKManager/src/CWrapperGen/CMakeFiles/CMakeScratch/TryCompile-pgh5po/Debug/cmTC_3cdb1.lib" /MACHINE:X64  /machine:x64 cmTC_3cdb1.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_3cdb1.vcxproj -> C:\\Users\\boden\\Documents\\GitHub\\KKManager\\src\\CWrapperGen\\CMakeFiles\\CMakeScratch\\TryCompile-pgh5po\\Debug\\cmTC_3cdb1.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_3cdb1.dir\\Debug\\cmTC_3cdb1.tlog\\unsuccessfulbuild".
+          Touching "cmTC_3cdb1.dir\\Debug\\cmTC_3cdb1.tlog\\cmTC_3cdb1.lastbuildstate".
+        Done Building Project "C:\\Users\\boden\\Documents\\GitHub\\KKManager\\src\\CWrapperGen\\CMakeFiles\\CMakeScratch\\TryCompile-pgh5po\\cmTC_3cdb1.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.68
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CheckIncludeFile.cmake:95 (try_compile)"
+      - "vendor/src/unzipped/swigwin-4.1.1/CMakeLists.txt:68 (check_include_file)"
+    checks:
+      - "Looking for unistd.h"
+    directories:
+      source: "C:/Users/boden/Documents/GitHub/KKManager/src/CWrapperGen/CMakeFiles/CMakeScratch/TryCompile-o8y62y"
+      binary: "C:/Users/boden/Documents/GitHub/KKManager/src/CWrapperGen/CMakeFiles/CMakeScratch/TryCompile-o8y62y"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/boden/Documents/GitHub/KKManager/src/vendor/src/unzipped/swigwin-4.1.1/Tools/cmake"
+    buildResult:
+      variable: "HAVE_UNISTD_H"
+      cached: true
+      stdout: |
+        Change Dir: C:/Users/boden/Documents/GitHub/KKManager/src/CWrapperGen/CMakeFiles/CMakeScratch/TryCompile-o8y62y
+        
+        Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_43f4d.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+        Copyright (C) Microsoft Corporation. All rights reserved.
+        
+        Build started 4/29/2023 8:37:28 AM.
+        Project "C:\\Users\\boden\\Documents\\GitHub\\KKManager\\src\\CWrapperGen\\CMakeFiles\\CMakeScratch\\TryCompile-o8y62y\\cmTC_43f4d.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_43f4d.dir\\Debug\\".
+          Creating directory "C:\\Users\\boden\\Documents\\GitHub\\KKManager\\src\\CWrapperGen\\CMakeFiles\\CMakeScratch\\TryCompile-o8y62y\\Debug\\".
+          Creating directory "cmTC_43f4d.dir\\Debug\\cmTC_43f4d.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_43f4d.dir\\Debug\\cmTC_43f4d.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_43f4d.dir\\Debug\\\\" /Fd"cmTC_43f4d.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\boden\\Documents\\GitHub\\KKManager\\src\\CWrapperGen\\CMakeFiles\\CMakeScratch\\TryCompile-o8y62y\\CheckIncludeFile.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30148 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          CheckIncludeFile.c
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_43f4d.dir\\Debug\\\\" /Fd"cmTC_43f4d.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\boden\\Documents\\GitHub\\KKManager\\src\\CWrapperGen\\CMakeFiles\\CMakeScratch\\TryCompile-o8y62y\\CheckIncludeFile.c"
+        C:\\Users\\boden\\Documents\\GitHub\\KKManager\\src\\CWrapperGen\\CMakeFiles\\CMakeScratch\\TryCompile-o8y62y\\CheckIncludeFile.c(1,10): fatal error C1083: Cannot open include file: 'unistd.h': No such file or directory [C:\\Users\\boden\\Documents\\GitHub\\KKManager\\src\\CWrapperGen\\CMakeFiles\\CMakeScratch\\TryCompile-o8y62y\\cmTC_43f4d.vcxproj]
+        Done Building Project "C:\\Users\\boden\\Documents\\GitHub\\KKManager\\src\\CWrapperGen\\CMakeFiles\\CMakeScratch\\TryCompile-o8y62y\\cmTC_43f4d.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "C:\\Users\\boden\\Documents\\GitHub\\KKManager\\src\\CWrapperGen\\CMakeFiles\\CMakeScratch\\TryCompile-o8y62y\\cmTC_43f4d.vcxproj" (default target) (1) ->
+        (ClCompile target) -> 
+          C:\\Users\\boden\\Documents\\GitHub\\KKManager\\src\\CWrapperGen\\CMakeFiles\\CMakeScratch\\TryCompile-o8y62y\\CheckIncludeFile.c(1,10): fatal error C1083: Cannot open include file: 'unistd.h': No such file or directory [C:\\Users\\boden\\Documents\\GitHub\\KKManager\\src\\CWrapperGen\\CMakeFiles\\CMakeScratch\\TryCompile-o8y62y\\cmTC_43f4d.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:00.42
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CheckIncludeFiles.cmake:137 (try_compile)"
+      - "vendor/src/unzipped/swigwin-4.1.1/CMakeLists.txt:69 (check_include_files)"
+    checks:
+      - "Looking for 4 include files stdlib.h, ..., float.h"
+    directories:
+      source: "C:/Users/boden/Documents/GitHub/KKManager/src/CWrapperGen/CMakeFiles/CMakeScratch/TryCompile-j1clb7"
+      binary: "C:/Users/boden/Documents/GitHub/KKManager/src/CWrapperGen/CMakeFiles/CMakeScratch/TryCompile-j1clb7"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/boden/Documents/GitHub/KKManager/src/vendor/src/unzipped/swigwin-4.1.1/Tools/cmake"
+    buildResult:
+      variable: "STDC_HEADERS"
+      cached: true
+      stdout: |
+        Change Dir: C:/Users/boden/Documents/GitHub/KKManager/src/CWrapperGen/CMakeFiles/CMakeScratch/TryCompile-j1clb7
+        
+        Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_accec.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+        Copyright (C) Microsoft Corporation. All rights reserved.
+        
+        Build started 4/29/2023 8:37:29 AM.
+        Project "C:\\Users\\boden\\Documents\\GitHub\\KKManager\\src\\CWrapperGen\\CMakeFiles\\CMakeScratch\\TryCompile-j1clb7\\cmTC_accec.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_accec.dir\\Debug\\".
+          Creating directory "C:\\Users\\boden\\Documents\\GitHub\\KKManager\\src\\CWrapperGen\\CMakeFiles\\CMakeScratch\\TryCompile-j1clb7\\Debug\\".
+          Creating directory "cmTC_accec.dir\\Debug\\cmTC_accec.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_accec.dir\\Debug\\cmTC_accec.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_accec.dir\\Debug\\\\" /Fd"cmTC_accec.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\boden\\Documents\\GitHub\\KKManager\\src\\CWrapperGen\\CMakeFiles\\CMakeScratch\\TryCompile-j1clb7\\STDC_HEADERS.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30148 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          STDC_HEADERS.c
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_accec.dir\\Debug\\\\" /Fd"cmTC_accec.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\boden\\Documents\\GitHub\\KKManager\\src\\CWrapperGen\\CMakeFiles\\CMakeScratch\\TryCompile-j1clb7\\STDC_HEADERS.c"
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\boden\\Documents\\GitHub\\KKManager\\src\\CWrapperGen\\CMakeFiles\\CMakeScratch\\TryCompile-j1clb7\\Debug\\cmTC_accec.exe" /INCREMENTAL /ILK:"cmTC_accec.dir\\Debug\\cmTC_accec.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/boden/Documents/GitHub/KKManager/src/CWrapperGen/CMakeFiles/CMakeScratch/TryCompile-j1clb7/Debug/cmTC_accec.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/boden/Documents/GitHub/KKManager/src/CWrapperGen/CMakeFiles/CMakeScratch/TryCompile-j1clb7/Debug/cmTC_accec.lib" /MACHINE:X64  /machine:x64 cmTC_accec.dir\\Debug\\STDC_HEADERS.obj
+          cmTC_accec.vcxproj -> C:\\Users\\boden\\Documents\\GitHub\\KKManager\\src\\CWrapperGen\\CMakeFiles\\CMakeScratch\\TryCompile-j1clb7\\Debug\\cmTC_accec.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_accec.dir\\Debug\\cmTC_accec.tlog\\unsuccessfulbuild".
+          Touching "cmTC_accec.dir\\Debug\\cmTC_accec.tlog\\cmTC_accec.lastbuildstate".
+        Done Building Project "C:\\Users\\boden\\Documents\\GitHub\\KKManager\\src\\CWrapperGen\\CMakeFiles\\CMakeScratch\\TryCompile-j1clb7\\cmTC_accec.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.69
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CheckIncludeFileCXX.cmake:94 (try_compile)"
+      - "vendor/src/unzipped/swigwin-4.1.1/CMakeLists.txt:71 (check_include_file_cxx)"
+    checks:
+      - "Looking for C++ include boost/shared_ptr.hpp"
+    directories:
+      source: "C:/Users/boden/Documents/GitHub/KKManager/src/CWrapperGen/CMakeFiles/CMakeScratch/TryCompile-983ege"
+      binary: "C:/Users/boden/Documents/GitHub/KKManager/src/CWrapperGen/CMakeFiles/CMakeScratch/TryCompile-983ege"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/boden/Documents/GitHub/KKManager/src/vendor/src/unzipped/swigwin-4.1.1/Tools/cmake"
+    buildResult:
+      variable: "HAVE_BOOST"
+      cached: true
+      stdout: |
+        Change Dir: C:/Users/boden/Documents/GitHub/KKManager/src/CWrapperGen/CMakeFiles/CMakeScratch/TryCompile-983ege
+        
+        Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_785ef.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+        Copyright (C) Microsoft Corporation. All rights reserved.
+        
+        Build started 4/29/2023 8:37:29 AM.
+        Project "C:\\Users\\boden\\Documents\\GitHub\\KKManager\\src\\CWrapperGen\\CMakeFiles\\CMakeScratch\\TryCompile-983ege\\cmTC_785ef.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_785ef.dir\\Debug\\".
+          Creating directory "C:\\Users\\boden\\Documents\\GitHub\\KKManager\\src\\CWrapperGen\\CMakeFiles\\CMakeScratch\\TryCompile-983ege\\Debug\\".
+          Creating directory "cmTC_785ef.dir\\Debug\\cmTC_785ef.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_785ef.dir\\Debug\\cmTC_785ef.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_785ef.dir\\Debug\\\\" /Fd"cmTC_785ef.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Users\\boden\\Documents\\GitHub\\KKManager\\src\\CWrapperGen\\CMakeFiles\\CMakeScratch\\TryCompile-983ege\\CheckIncludeFile.cxx"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30148 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          CheckIncludeFile.cxx
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_785ef.dir\\Debug\\\\" /Fd"cmTC_785ef.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Users\\boden\\Documents\\GitHub\\KKManager\\src\\CWrapperGen\\CMakeFiles\\CMakeScratch\\TryCompile-983ege\\CheckIncludeFile.cxx"
+        C:\\Users\\boden\\Documents\\GitHub\\KKManager\\src\\CWrapperGen\\CMakeFiles\\CMakeScratch\\TryCompile-983ege\\CheckIncludeFile.cxx(1,10): fatal error C1083: Cannot open include file: 'boost/shared_ptr.hpp': No such file or directory [C:\\Users\\boden\\Documents\\GitHub\\KKManager\\src\\CWrapperGen\\CMakeFiles\\CMakeScratch\\TryCompile-983ege\\cmTC_785ef.vcxproj]
+        Done Building Project "C:\\Users\\boden\\Documents\\GitHub\\KKManager\\src\\CWrapperGen\\CMakeFiles\\CMakeScratch\\TryCompile-983ege\\cmTC_785ef.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "C:\\Users\\boden\\Documents\\GitHub\\KKManager\\src\\CWrapperGen\\CMakeFiles\\CMakeScratch\\TryCompile-983ege\\cmTC_785ef.vcxproj" (default target) (1) ->
+        (ClCompile target) -> 
+          C:\\Users\\boden\\Documents\\GitHub\\KKManager\\src\\CWrapperGen\\CMakeFiles\\CMakeScratch\\TryCompile-983ege\\CheckIncludeFile.cxx(1,10): fatal error C1083: Cannot open include file: 'boost/shared_ptr.hpp': No such file or directory [C:\\Users\\boden\\Documents\\GitHub\\KKManager\\src\\CWrapperGen\\CMakeFiles\\CMakeScratch\\TryCompile-983ege\\cmTC_785ef.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:00.46
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CheckLibraryExists.cmake:71 (try_compile)"
+      - "vendor/src/unzipped/swigwin-4.1.1/CMakeLists.txt:72 (check_library_exists)"
+    checks:
+      - "Looking for dlopen in dl"
+    directories:
+      source: "C:/Users/boden/Documents/GitHub/KKManager/src/CWrapperGen/CMakeFiles/CMakeScratch/TryCompile-va9lvp"
+      binary: "C:/Users/boden/Documents/GitHub/KKManager/src/CWrapperGen/CMakeFiles/CMakeScratch/TryCompile-va9lvp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/boden/Documents/GitHub/KKManager/src/vendor/src/unzipped/swigwin-4.1.1/Tools/cmake"
+    buildResult:
+      variable: "HAVE_LIBDL"
+      cached: true
+      stdout: |
+        Change Dir: C:/Users/boden/Documents/GitHub/KKManager/src/CWrapperGen/CMakeFiles/CMakeScratch/TryCompile-va9lvp
+        
+        Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_73a8c.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+        Copyright (C) Microsoft Corporation. All rights reserved.
+        
+        Build started 4/29/2023 8:37:30 AM.
+        Project "C:\\Users\\boden\\Documents\\GitHub\\KKManager\\src\\CWrapperGen\\CMakeFiles\\CMakeScratch\\TryCompile-va9lvp\\cmTC_73a8c.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_73a8c.dir\\Debug\\".
+          Creating directory "C:\\Users\\boden\\Documents\\GitHub\\KKManager\\src\\CWrapperGen\\CMakeFiles\\CMakeScratch\\TryCompile-va9lvp\\Debug\\".
+          Creating directory "cmTC_73a8c.dir\\Debug\\cmTC_73a8c.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_73a8c.dir\\Debug\\cmTC_73a8c.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=dlopen /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_73a8c.dir\\Debug\\\\" /Fd"cmTC_73a8c.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\boden\\Documents\\GitHub\\KKManager\\src\\CWrapperGen\\CMakeFiles\\CMakeScratch\\TryCompile-va9lvp\\CheckFunctionExists.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30148 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          CheckFunctionExists.c
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=dlopen /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_73a8c.dir\\Debug\\\\" /Fd"cmTC_73a8c.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\boden\\Documents\\GitHub\\KKManager\\src\\CWrapperGen\\CMakeFiles\\CMakeScratch\\TryCompile-va9lvp\\CheckFunctionExists.c"
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\boden\\Documents\\GitHub\\KKManager\\src\\CWrapperGen\\CMakeFiles\\CMakeScratch\\TryCompile-va9lvp\\Debug\\cmTC_73a8c.exe" /INCREMENTAL /ILK:"cmTC_73a8c.dir\\Debug\\cmTC_73a8c.ilk" /NOLOGO dl.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/boden/Documents/GitHub/KKManager/src/CWrapperGen/CMakeFiles/CMakeScratch/TryCompile-va9lvp/Debug/cmTC_73a8c.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/boden/Documents/GitHub/KKManager/src/CWrapperGen/CMakeFiles/CMakeScratch/TryCompile-va9lvp/Debug/cmTC_73a8c.lib" /MACHINE:X64  /machine:x64 cmTC_73a8c.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: cannot open file 'dl.lib' [C:\\Users\\boden\\Documents\\GitHub\\KKManager\\src\\CWrapperGen\\CMakeFiles\\CMakeScratch\\TryCompile-va9lvp\\cmTC_73a8c.vcxproj]
+        Done Building Project "C:\\Users\\boden\\Documents\\GitHub\\KKManager\\src\\CWrapperGen\\CMakeFiles\\CMakeScratch\\TryCompile-va9lvp\\cmTC_73a8c.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "C:\\Users\\boden\\Documents\\GitHub\\KKManager\\src\\CWrapperGen\\CMakeFiles\\CMakeScratch\\TryCompile-va9lvp\\cmTC_73a8c.vcxproj" (default target) (1) ->
+        (Link target) -> 
+          LINK : fatal error LNK1104: cannot open file 'dl.lib' [C:\\Users\\boden\\Documents\\GitHub\\KKManager\\src\\CWrapperGen\\CMakeFiles\\CMakeScratch\\TryCompile-va9lvp\\cmTC_73a8c.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:00.58
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CheckFunctionExists.cmake:91 (try_compile)"
+      - "vendor/src/unzipped/swigwin-4.1.1/CMakeLists.txt:73 (check_function_exists)"
+    checks:
+      - "Looking for popen"
+    directories:
+      source: "C:/Users/boden/Documents/GitHub/KKManager/src/CWrapperGen/CMakeFiles/CMakeScratch/TryCompile-xf5cw8"
+      binary: "C:/Users/boden/Documents/GitHub/KKManager/src/CWrapperGen/CMakeFiles/CMakeScratch/TryCompile-xf5cw8"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/boden/Documents/GitHub/KKManager/src/vendor/src/unzipped/swigwin-4.1.1/Tools/cmake"
+    buildResult:
+      variable: "HAVE_POPEN"
+      cached: true
+      stdout: |
+        Change Dir: C:/Users/boden/Documents/GitHub/KKManager/src/CWrapperGen/CMakeFiles/CMakeScratch/TryCompile-xf5cw8
+        
+        Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_03fc8.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+        Copyright (C) Microsoft Corporation. All rights reserved.
+        
+        Build started 4/29/2023 8:37:31 AM.
+        Project "C:\\Users\\boden\\Documents\\GitHub\\KKManager\\src\\CWrapperGen\\CMakeFiles\\CMakeScratch\\TryCompile-xf5cw8\\cmTC_03fc8.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_03fc8.dir\\Debug\\".
+          Creating directory "C:\\Users\\boden\\Documents\\GitHub\\KKManager\\src\\CWrapperGen\\CMakeFiles\\CMakeScratch\\TryCompile-xf5cw8\\Debug\\".
+          Creating directory "cmTC_03fc8.dir\\Debug\\cmTC_03fc8.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_03fc8.dir\\Debug\\cmTC_03fc8.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=popen /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_03fc8.dir\\Debug\\\\" /Fd"cmTC_03fc8.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\boden\\Documents\\GitHub\\KKManager\\src\\CWrapperGen\\CMakeFiles\\CMakeScratch\\TryCompile-xf5cw8\\CheckFunctionExists.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30148 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          CheckFunctionExists.c
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=popen /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_03fc8.dir\\Debug\\\\" /Fd"cmTC_03fc8.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\boden\\Documents\\GitHub\\KKManager\\src\\CWrapperGen\\CMakeFiles\\CMakeScratch\\TryCompile-xf5cw8\\CheckFunctionExists.c"
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\boden\\Documents\\GitHub\\KKManager\\src\\CWrapperGen\\CMakeFiles\\CMakeScratch\\TryCompile-xf5cw8\\Debug\\cmTC_03fc8.exe" /INCREMENTAL /ILK:"cmTC_03fc8.dir\\Debug\\cmTC_03fc8.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/boden/Documents/GitHub/KKManager/src/CWrapperGen/CMakeFiles/CMakeScratch/TryCompile-xf5cw8/Debug/cmTC_03fc8.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/boden/Documents/GitHub/KKManager/src/CWrapperGen/CMakeFiles/CMakeScratch/TryCompile-xf5cw8/Debug/cmTC_03fc8.lib" /MACHINE:X64  /machine:x64 cmTC_03fc8.dir\\Debug\\CheckFunctionExists.obj
+        CheckFunctionExists.obj : error LNK2019: unresolved external symbol popen referenced in function main [C:\\Users\\boden\\Documents\\GitHub\\KKManager\\src\\CWrapperGen\\CMakeFiles\\CMakeScratch\\TryCompile-xf5cw8\\cmTC_03fc8.vcxproj]
+        C:\\Users\\boden\\Documents\\GitHub\\KKManager\\src\\CWrapperGen\\CMakeFiles\\CMakeScratch\\TryCompile-xf5cw8\\Debug\\cmTC_03fc8.exe : fatal error LNK1120: 1 unresolved externals [C:\\Users\\boden\\Documents\\GitHub\\KKManager\\src\\CWrapperGen\\CMakeFiles\\CMakeScratch\\TryCompile-xf5cw8\\cmTC_03fc8.vcxproj]
+        Done Building Project "C:\\Users\\boden\\Documents\\GitHub\\KKManager\\src\\CWrapperGen\\CMakeFiles\\CMakeScratch\\TryCompile-xf5cw8\\cmTC_03fc8.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "C:\\Users\\boden\\Documents\\GitHub\\KKManager\\src\\CWrapperGen\\CMakeFiles\\CMakeScratch\\TryCompile-xf5cw8\\cmTC_03fc8.vcxproj" (default target) (1) ->
+        (Link target) -> 
+          CheckFunctionExists.obj : error LNK2019: unresolved external symbol popen referenced in function main [C:\\Users\\boden\\Documents\\GitHub\\KKManager\\src\\CWrapperGen\\CMakeFiles\\CMakeScratch\\TryCompile-xf5cw8\\cmTC_03fc8.vcxproj]
+          C:\\Users\\boden\\Documents\\GitHub\\KKManager\\src\\CWrapperGen\\CMakeFiles\\CMakeScratch\\TryCompile-xf5cw8\\Debug\\cmTC_03fc8.exe : fatal error LNK1120: 1 unresolved externals [C:\\Users\\boden\\Documents\\GitHub\\KKManager\\src\\CWrapperGen\\CMakeFiles\\CMakeScratch\\TryCompile-xf5cw8\\cmTC_03fc8.vcxproj]
+        
+            0 Warning(s)
+            2 Error(s)
+        
+        Time Elapsed 00:00:00.61
+        
+      exitCode: 1
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CheckIncludeFile.cmake:95 (try_compile)"
+      - "vendor/src/unzipped/pcre2-10.42/CMakeLists.txt:141 (CHECK_INCLUDE_FILE)"
+    checks:
+      - "Looking for dirent.h"
+    directories:
+      source: "C:/Users/boden/Documents/GitHub/KKManager/src/CWrapperGen/CMakeFiles/CMakeScratch/TryCompile-thzrcc"
+      binary: "C:/Users/boden/Documents/GitHub/KKManager/src/CWrapperGen/CMakeFiles/CMakeScratch/TryCompile-thzrcc"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_MODULE_PATH: "C:/Users/boden/Documents/GitHub/KKManager/src/vendor/src/unzipped/pcre2-10.42/cmake"
+    buildResult:
+      variable: "HAVE_DIRENT_H"
+      cached: true
+      stdout: |
+        Change Dir: C:/Users/boden/Documents/GitHub/KKManager/src/CWrapperGen/CMakeFiles/CMakeScratch/TryCompile-thzrcc
+        
+        Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_b4f7d.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+        Copyright (C) Microsoft Corporation. All rights reserved.
+        
+        Build started 4/29/2023 1:48:35 PM.
+        Project "C:\\Users\\boden\\Documents\\GitHub\\KKManager\\src\\CWrapperGen\\CMakeFiles\\CMakeScratch\\TryCompile-thzrcc\\cmTC_b4f7d.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_b4f7d.dir\\Debug\\".
+          Creating directory "C:\\Users\\boden\\Documents\\GitHub\\KKManager\\src\\CWrapperGen\\CMakeFiles\\CMakeScratch\\TryCompile-thzrcc\\Debug\\".
+          Creating directory "cmTC_b4f7d.dir\\Debug\\cmTC_b4f7d.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_b4f7d.dir\\Debug\\cmTC_b4f7d.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b4f7d.dir\\Debug\\\\" /Fd"cmTC_b4f7d.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\boden\\Documents\\GitHub\\KKManager\\src\\CWrapperGen\\CMakeFiles\\CMakeScratch\\TryCompile-thzrcc\\CheckIncludeFile.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30148 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          CheckIncludeFile.c
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b4f7d.dir\\Debug\\\\" /Fd"cmTC_b4f7d.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\boden\\Documents\\GitHub\\KKManager\\src\\CWrapperGen\\CMakeFiles\\CMakeScratch\\TryCompile-thzrcc\\CheckIncludeFile.c"
+        C:\\Users\\boden\\Documents\\GitHub\\KKManager\\src\\CWrapperGen\\CMakeFiles\\CMakeScratch\\TryCompile-thzrcc\\CheckIncludeFile.c(1,10): fatal error C1083: Cannot open include file: 'dirent.h': No such file or directory [C:\\Users\\boden\\Documents\\GitHub\\KKManager\\src\\CWrapperGen\\CMakeFiles\\CMakeScratch\\TryCompile-thzrcc\\cmTC_b4f7d.vcxproj]
+        Done Building Project "C:\\Users\\boden\\Documents\\GitHub\\KKManager\\src\\CWrapperGen\\CMakeFiles\\CMakeScratch\\TryCompile-thzrcc\\cmTC_b4f7d.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "C:\\Users\\boden\\Documents\\GitHub\\KKManager\\src\\CWrapperGen\\CMakeFiles\\CMakeScratch\\TryCompile-thzrcc\\cmTC_b4f7d.vcxproj" (default target) (1) ->
+        (ClCompile target) -> 
+          C:\\Users\\boden\\Documents\\GitHub\\KKManager\\src\\CWrapperGen\\CMakeFiles\\CMakeScratch\\TryCompile-thzrcc\\CheckIncludeFile.c(1,10): fatal error C1083: Cannot open include file: 'dirent.h': No such file or directory [C:\\Users\\boden\\Documents\\GitHub\\KKManager\\src\\CWrapperGen\\CMakeFiles\\CMakeScratch\\TryCompile-thzrcc\\cmTC_b4f7d.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:00.70
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CheckIncludeFile.cmake:95 (try_compile)"
+      - "vendor/src/unzipped/pcre2-10.42/CMakeLists.txt:145 (CHECK_INCLUDE_FILE)"
+    checks:
+      - "Looking for windows.h"
+    directories:
+      source: "C:/Users/boden/Documents/GitHub/KKManager/src/CWrapperGen/CMakeFiles/CMakeScratch/TryCompile-c47jbl"
+      binary: "C:/Users/boden/Documents/GitHub/KKManager/src/CWrapperGen/CMakeFiles/CMakeScratch/TryCompile-c47jbl"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_MODULE_PATH: "C:/Users/boden/Documents/GitHub/KKManager/src/vendor/src/unzipped/pcre2-10.42/cmake"
+    buildResult:
+      variable: "HAVE_WINDOWS_H"
+      cached: true
+      stdout: |
+        Change Dir: C:/Users/boden/Documents/GitHub/KKManager/src/CWrapperGen/CMakeFiles/CMakeScratch/TryCompile-c47jbl
+        
+        Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_bbd13.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+        Copyright (C) Microsoft Corporation. All rights reserved.
+        
+        Build started 4/29/2023 1:48:36 PM.
+        Project "C:\\Users\\boden\\Documents\\GitHub\\KKManager\\src\\CWrapperGen\\CMakeFiles\\CMakeScratch\\TryCompile-c47jbl\\cmTC_bbd13.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_bbd13.dir\\Debug\\".
+          Creating directory "C:\\Users\\boden\\Documents\\GitHub\\KKManager\\src\\CWrapperGen\\CMakeFiles\\CMakeScratch\\TryCompile-c47jbl\\Debug\\".
+          Creating directory "cmTC_bbd13.dir\\Debug\\cmTC_bbd13.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_bbd13.dir\\Debug\\cmTC_bbd13.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_bbd13.dir\\Debug\\\\" /Fd"cmTC_bbd13.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\boden\\Documents\\GitHub\\KKManager\\src\\CWrapperGen\\CMakeFiles\\CMakeScratch\\TryCompile-c47jbl\\CheckIncludeFile.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30148 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          CheckIncludeFile.c
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_bbd13.dir\\Debug\\\\" /Fd"cmTC_bbd13.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\boden\\Documents\\GitHub\\KKManager\\src\\CWrapperGen\\CMakeFiles\\CMakeScratch\\TryCompile-c47jbl\\CheckIncludeFile.c"
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\boden\\Documents\\GitHub\\KKManager\\src\\CWrapperGen\\CMakeFiles\\CMakeScratch\\TryCompile-c47jbl\\Debug\\cmTC_bbd13.exe" /INCREMENTAL /ILK:"cmTC_bbd13.dir\\Debug\\cmTC_bbd13.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/boden/Documents/GitHub/KKManager/src/CWrapperGen/CMakeFiles/CMakeScratch/TryCompile-c47jbl/Debug/cmTC_bbd13.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/boden/Documents/GitHub/KKManager/src/CWrapperGen/CMakeFiles/CMakeScratch/TryCompile-c47jbl/Debug/cmTC_bbd13.lib" /MACHINE:X64  /machine:x64 cmTC_bbd13.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_bbd13.vcxproj -> C:\\Users\\boden\\Documents\\GitHub\\KKManager\\src\\CWrapperGen\\CMakeFiles\\CMakeScratch\\TryCompile-c47jbl\\Debug\\cmTC_bbd13.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_bbd13.dir\\Debug\\cmTC_bbd13.tlog\\unsuccessfulbuild".
+          Touching "cmTC_bbd13.dir\\Debug\\cmTC_bbd13.tlog\\cmTC_bbd13.lastbuildstate".
+        Done Building Project "C:\\Users\\boden\\Documents\\GitHub\\KKManager\\src\\CWrapperGen\\CMakeFiles\\CMakeScratch\\TryCompile-c47jbl\\cmTC_bbd13.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.95
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CheckSymbolExists.cmake:145 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CheckSymbolExists.cmake:71 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "vendor/src/unzipped/pcre2-10.42/CMakeLists.txt:147 (CHECK_SYMBOL_EXISTS)"
+    checks:
+      - "Looking for bcopy"
+    directories:
+      source: "C:/Users/boden/Documents/GitHub/KKManager/src/CWrapperGen/CMakeFiles/CMakeScratch/TryCompile-yotr39"
+      binary: "C:/Users/boden/Documents/GitHub/KKManager/src/CWrapperGen/CMakeFiles/CMakeScratch/TryCompile-yotr39"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_MODULE_PATH: "C:/Users/boden/Documents/GitHub/KKManager/src/vendor/src/unzipped/pcre2-10.42/cmake"
+    buildResult:
+      variable: "HAVE_BCOPY"
+      cached: true
+      stdout: |
+        Change Dir: C:/Users/boden/Documents/GitHub/KKManager/src/CWrapperGen/CMakeFiles/CMakeScratch/TryCompile-yotr39
+        
+        Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_e4e9b.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+        Copyright (C) Microsoft Corporation. All rights reserved.
+        
+        Build started 4/29/2023 1:48:37 PM.
+        Project "C:\\Users\\boden\\Documents\\GitHub\\KKManager\\src\\CWrapperGen\\CMakeFiles\\CMakeScratch\\TryCompile-yotr39\\cmTC_e4e9b.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_e4e9b.dir\\Debug\\".
+          Creating directory "C:\\Users\\boden\\Documents\\GitHub\\KKManager\\src\\CWrapperGen\\CMakeFiles\\CMakeScratch\\TryCompile-yotr39\\Debug\\".
+          Creating directory "cmTC_e4e9b.dir\\Debug\\cmTC_e4e9b.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_e4e9b.dir\\Debug\\cmTC_e4e9b.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e4e9b.dir\\Debug\\\\" /Fd"cmTC_e4e9b.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\boden\\Documents\\GitHub\\KKManager\\src\\CWrapperGen\\CMakeFiles\\CMakeScratch\\TryCompile-yotr39\\CheckSymbolExists.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30148 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          CheckSymbolExists.c
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e4e9b.dir\\Debug\\\\" /Fd"cmTC_e4e9b.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\boden\\Documents\\GitHub\\KKManager\\src\\CWrapperGen\\CMakeFiles\\CMakeScratch\\TryCompile-yotr39\\CheckSymbolExists.c"
+        C:\\Users\\boden\\Documents\\GitHub\\KKManager\\src\\CWrapperGen\\CMakeFiles\\CMakeScratch\\TryCompile-yotr39\\CheckSymbolExists.c(2,10): fatal error C1083: Cannot open include file: 'strings.h': No such file or directory [C:\\Users\\boden\\Documents\\GitHub\\KKManager\\src\\CWrapperGen\\CMakeFiles\\CMakeScratch\\TryCompile-yotr39\\cmTC_e4e9b.vcxproj]
+        Done Building Project "C:\\Users\\boden\\Documents\\GitHub\\KKManager\\src\\CWrapperGen\\CMakeFiles\\CMakeScratch\\TryCompile-yotr39\\cmTC_e4e9b.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "C:\\Users\\boden\\Documents\\GitHub\\KKManager\\src\\CWrapperGen\\CMakeFiles\\CMakeScratch\\TryCompile-yotr39\\cmTC_e4e9b.vcxproj" (default target) (1) ->
+        (ClCompile target) -> 
+          C:\\Users\\boden\\Documents\\GitHub\\KKManager\\src\\CWrapperGen\\CMakeFiles\\CMakeScratch\\TryCompile-yotr39\\CheckSymbolExists.c(2,10): fatal error C1083: Cannot open include file: 'strings.h': No such file or directory [C:\\Users\\boden\\Documents\\GitHub\\KKManager\\src\\CWrapperGen\\CMakeFiles\\CMakeScratch\\TryCompile-yotr39\\cmTC_e4e9b.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:00.42
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CheckSymbolExists.cmake:145 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CheckSymbolExists.cmake:71 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "vendor/src/unzipped/pcre2-10.42/CMakeLists.txt:148 (CHECK_SYMBOL_EXISTS)"
+    checks:
+      - "Looking for memfd_create"
+    directories:
+      source: "C:/Users/boden/Documents/GitHub/KKManager/src/CWrapperGen/CMakeFiles/CMakeScratch/TryCompile-4ozmpg"
+      binary: "C:/Users/boden/Documents/GitHub/KKManager/src/CWrapperGen/CMakeFiles/CMakeScratch/TryCompile-4ozmpg"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_MODULE_PATH: "C:/Users/boden/Documents/GitHub/KKManager/src/vendor/src/unzipped/pcre2-10.42/cmake"
+    buildResult:
+      variable: "HAVE_MEMFD_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: C:/Users/boden/Documents/GitHub/KKManager/src/CWrapperGen/CMakeFiles/CMakeScratch/TryCompile-4ozmpg
+        
+        Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_850a4.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+        Copyright (C) Microsoft Corporation. All rights reserved.
+        
+        Build started 4/29/2023 1:48:38 PM.
+        Project "C:\\Users\\boden\\Documents\\GitHub\\KKManager\\src\\CWrapperGen\\CMakeFiles\\CMakeScratch\\TryCompile-4ozmpg\\cmTC_850a4.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_850a4.dir\\Debug\\".
+          Creating directory "C:\\Users\\boden\\Documents\\GitHub\\KKManager\\src\\CWrapperGen\\CMakeFiles\\CMakeScratch\\TryCompile-4ozmpg\\Debug\\".
+          Creating directory "cmTC_850a4.dir\\Debug\\cmTC_850a4.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_850a4.dir\\Debug\\cmTC_850a4.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_850a4.dir\\Debug\\\\" /Fd"cmTC_850a4.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\boden\\Documents\\GitHub\\KKManager\\src\\CWrapperGen\\CMakeFiles\\CMakeScratch\\TryCompile-4ozmpg\\CheckSymbolExists.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30148 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          CheckSymbolExists.c
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_850a4.dir\\Debug\\\\" /Fd"cmTC_850a4.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\boden\\Documents\\GitHub\\KKManager\\src\\CWrapperGen\\CMakeFiles\\CMakeScratch\\TryCompile-4ozmpg\\CheckSymbolExists.c"
+        C:\\Users\\boden\\Documents\\GitHub\\KKManager\\src\\CWrapperGen\\CMakeFiles\\CMakeScratch\\TryCompile-4ozmpg\\CheckSymbolExists.c(2,10): fatal error C1083: Cannot open include file: 'sys/mman.h': No such file or directory [C:\\Users\\boden\\Documents\\GitHub\\KKManager\\src\\CWrapperGen\\CMakeFiles\\CMakeScratch\\TryCompile-4ozmpg\\cmTC_850a4.vcxproj]
+        Done Building Project "C:\\Users\\boden\\Documents\\GitHub\\KKManager\\src\\CWrapperGen\\CMakeFiles\\CMakeScratch\\TryCompile-4ozmpg\\cmTC_850a4.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "C:\\Users\\boden\\Documents\\GitHub\\KKManager\\src\\CWrapperGen\\CMakeFiles\\CMakeScratch\\TryCompile-4ozmpg\\cmTC_850a4.vcxproj" (default target) (1) ->
+        (ClCompile target) -> 
+          C:\\Users\\boden\\Documents\\GitHub\\KKManager\\src\\CWrapperGen\\CMakeFiles\\CMakeScratch\\TryCompile-4ozmpg\\CheckSymbolExists.c(2,10): fatal error C1083: Cannot open include file: 'sys/mman.h': No such file or directory [C:\\Users\\boden\\Documents\\GitHub\\KKManager\\src\\CWrapperGen\\CMakeFiles\\CMakeScratch\\TryCompile-4ozmpg\\cmTC_850a4.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:00.37
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CheckSymbolExists.cmake:145 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CheckSymbolExists.cmake:71 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "vendor/src/unzipped/pcre2-10.42/CMakeLists.txt:149 (CHECK_SYMBOL_EXISTS)"
+    checks:
+      - "Looking for memmove"
+    directories:
+      source: "C:/Users/boden/Documents/GitHub/KKManager/src/CWrapperGen/CMakeFiles/CMakeScratch/TryCompile-9u910u"
+      binary: "C:/Users/boden/Documents/GitHub/KKManager/src/CWrapperGen/CMakeFiles/CMakeScratch/TryCompile-9u910u"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_MODULE_PATH: "C:/Users/boden/Documents/GitHub/KKManager/src/vendor/src/unzipped/pcre2-10.42/cmake"
+    buildResult:
+      variable: "HAVE_MEMMOVE"
+      cached: true
+      stdout: |
+        Change Dir: C:/Users/boden/Documents/GitHub/KKManager/src/CWrapperGen/CMakeFiles/CMakeScratch/TryCompile-9u910u
+        
+        Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_0bb48.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+        Copyright (C) Microsoft Corporation. All rights reserved.
+        
+        Build started 4/29/2023 1:48:38 PM.
+        Project "C:\\Users\\boden\\Documents\\GitHub\\KKManager\\src\\CWrapperGen\\CMakeFiles\\CMakeScratch\\TryCompile-9u910u\\cmTC_0bb48.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_0bb48.dir\\Debug\\".
+          Creating directory "C:\\Users\\boden\\Documents\\GitHub\\KKManager\\src\\CWrapperGen\\CMakeFiles\\CMakeScratch\\TryCompile-9u910u\\Debug\\".
+          Creating directory "cmTC_0bb48.dir\\Debug\\cmTC_0bb48.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_0bb48.dir\\Debug\\cmTC_0bb48.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_0bb48.dir\\Debug\\\\" /Fd"cmTC_0bb48.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\boden\\Documents\\GitHub\\KKManager\\src\\CWrapperGen\\CMakeFiles\\CMakeScratch\\TryCompile-9u910u\\CheckSymbolExists.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30148 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          CheckSymbolExists.c
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_0bb48.dir\\Debug\\\\" /Fd"cmTC_0bb48.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\boden\\Documents\\GitHub\\KKManager\\src\\CWrapperGen\\CMakeFiles\\CMakeScratch\\TryCompile-9u910u\\CheckSymbolExists.c"
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\boden\\Documents\\GitHub\\KKManager\\src\\CWrapperGen\\CMakeFiles\\CMakeScratch\\TryCompile-9u910u\\Debug\\cmTC_0bb48.exe" /INCREMENTAL /ILK:"cmTC_0bb48.dir\\Debug\\cmTC_0bb48.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/boden/Documents/GitHub/KKManager/src/CWrapperGen/CMakeFiles/CMakeScratch/TryCompile-9u910u/Debug/cmTC_0bb48.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/boden/Documents/GitHub/KKManager/src/CWrapperGen/CMakeFiles/CMakeScratch/TryCompile-9u910u/Debug/cmTC_0bb48.lib" /MACHINE:X64  /machine:x64 cmTC_0bb48.dir\\Debug\\CheckSymbolExists.obj
+          cmTC_0bb48.vcxproj -> C:\\Users\\boden\\Documents\\GitHub\\KKManager\\src\\CWrapperGen\\CMakeFiles\\CMakeScratch\\TryCompile-9u910u\\Debug\\cmTC_0bb48.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_0bb48.dir\\Debug\\cmTC_0bb48.tlog\\unsuccessfulbuild".
+          Touching "cmTC_0bb48.dir\\Debug\\cmTC_0bb48.tlog\\cmTC_0bb48.lastbuildstate".
+        Done Building Project "C:\\Users\\boden\\Documents\\GitHub\\KKManager\\src\\CWrapperGen\\CMakeFiles\\CMakeScratch\\TryCompile-9u910u\\cmTC_0bb48.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.63
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CheckSymbolExists.cmake:145 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CheckSymbolExists.cmake:71 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "vendor/src/unzipped/pcre2-10.42/CMakeLists.txt:150 (CHECK_SYMBOL_EXISTS)"
+    checks:
+      - "Looking for secure_getenv"
+    directories:
+      source: "C:/Users/boden/Documents/GitHub/KKManager/src/CWrapperGen/CMakeFiles/CMakeScratch/TryCompile-uf66at"
+      binary: "C:/Users/boden/Documents/GitHub/KKManager/src/CWrapperGen/CMakeFiles/CMakeScratch/TryCompile-uf66at"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_MODULE_PATH: "C:/Users/boden/Documents/GitHub/KKManager/src/vendor/src/unzipped/pcre2-10.42/cmake"
+    buildResult:
+      variable: "HAVE_SECURE_GETENV"
+      cached: true
+      stdout: |
+        Change Dir: C:/Users/boden/Documents/GitHub/KKManager/src/CWrapperGen/CMakeFiles/CMakeScratch/TryCompile-uf66at
+        
+        Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_07087.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+        Copyright (C) Microsoft Corporation. All rights reserved.
+        
+        Build started 4/29/2023 1:48:39 PM.
+        Project "C:\\Users\\boden\\Documents\\GitHub\\KKManager\\src\\CWrapperGen\\CMakeFiles\\CMakeScratch\\TryCompile-uf66at\\cmTC_07087.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_07087.dir\\Debug\\".
+          Creating directory "C:\\Users\\boden\\Documents\\GitHub\\KKManager\\src\\CWrapperGen\\CMakeFiles\\CMakeScratch\\TryCompile-uf66at\\Debug\\".
+          Creating directory "cmTC_07087.dir\\Debug\\cmTC_07087.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_07087.dir\\Debug\\cmTC_07087.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_07087.dir\\Debug\\\\" /Fd"cmTC_07087.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\boden\\Documents\\GitHub\\KKManager\\src\\CWrapperGen\\CMakeFiles\\CMakeScratch\\TryCompile-uf66at\\CheckSymbolExists.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30148 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          CheckSymbolExists.c
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_07087.dir\\Debug\\\\" /Fd"cmTC_07087.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\boden\\Documents\\GitHub\\KKManager\\src\\CWrapperGen\\CMakeFiles\\CMakeScratch\\TryCompile-uf66at\\CheckSymbolExists.c"
+        C:\\Users\\boden\\Documents\\GitHub\\KKManager\\src\\CWrapperGen\\CMakeFiles\\CMakeScratch\\TryCompile-uf66at\\CheckSymbolExists.c(8,32): error C2065: 'secure_getenv': undeclared identifier [C:\\Users\\boden\\Documents\\GitHub\\KKManager\\src\\CWrapperGen\\CMakeFiles\\CMakeScratch\\TryCompile-uf66at\\cmTC_07087.vcxproj]
+        Done Building Project "C:\\Users\\boden\\Documents\\GitHub\\KKManager\\src\\CWrapperGen\\CMakeFiles\\CMakeScratch\\TryCompile-uf66at\\cmTC_07087.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "C:\\Users\\boden\\Documents\\GitHub\\KKManager\\src\\CWrapperGen\\CMakeFiles\\CMakeScratch\\TryCompile-uf66at\\cmTC_07087.vcxproj" (default target) (1) ->
+        (ClCompile target) -> 
+          C:\\Users\\boden\\Documents\\GitHub\\KKManager\\src\\CWrapperGen\\CMakeFiles\\CMakeScratch\\TryCompile-uf66at\\CheckSymbolExists.c(8,32): error C2065: 'secure_getenv': undeclared identifier [C:\\Users\\boden\\Documents\\GitHub\\KKManager\\src\\CWrapperGen\\CMakeFiles\\CMakeScratch\\TryCompile-uf66at\\cmTC_07087.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:00.39
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CheckSymbolExists.cmake:145 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CheckSymbolExists.cmake:71 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "vendor/src/unzipped/pcre2-10.42/CMakeLists.txt:151 (CHECK_SYMBOL_EXISTS)"
+    checks:
+      - "Looking for strerror"
+    directories:
+      source: "C:/Users/boden/Documents/GitHub/KKManager/src/CWrapperGen/CMakeFiles/CMakeScratch/TryCompile-1yjuyb"
+      binary: "C:/Users/boden/Documents/GitHub/KKManager/src/CWrapperGen/CMakeFiles/CMakeScratch/TryCompile-1yjuyb"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_MODULE_PATH: "C:/Users/boden/Documents/GitHub/KKManager/src/vendor/src/unzipped/pcre2-10.42/cmake"
+    buildResult:
+      variable: "HAVE_STRERROR"
+      cached: true
+      stdout: |
+        Change Dir: C:/Users/boden/Documents/GitHub/KKManager/src/CWrapperGen/CMakeFiles/CMakeScratch/TryCompile-1yjuyb
+        
+        Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_a17c2.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+        Copyright (C) Microsoft Corporation. All rights reserved.
+        
+        Build started 4/29/2023 1:48:40 PM.
+        Project "C:\\Users\\boden\\Documents\\GitHub\\KKManager\\src\\CWrapperGen\\CMakeFiles\\CMakeScratch\\TryCompile-1yjuyb\\cmTC_a17c2.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_a17c2.dir\\Debug\\".
+          Creating directory "C:\\Users\\boden\\Documents\\GitHub\\KKManager\\src\\CWrapperGen\\CMakeFiles\\CMakeScratch\\TryCompile-1yjuyb\\Debug\\".
+          Creating directory "cmTC_a17c2.dir\\Debug\\cmTC_a17c2.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_a17c2.dir\\Debug\\cmTC_a17c2.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a17c2.dir\\Debug\\\\" /Fd"cmTC_a17c2.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\boden\\Documents\\GitHub\\KKManager\\src\\CWrapperGen\\CMakeFiles\\CMakeScratch\\TryCompile-1yjuyb\\CheckSymbolExists.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30148 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          CheckSymbolExists.c
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a17c2.dir\\Debug\\\\" /Fd"cmTC_a17c2.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\boden\\Documents\\GitHub\\KKManager\\src\\CWrapperGen\\CMakeFiles\\CMakeScratch\\TryCompile-1yjuyb\\CheckSymbolExists.c"
+        C:\\Users\\boden\\Documents\\GitHub\\KKManager\\src\\CWrapperGen\\CMakeFiles\\CMakeScratch\\TryCompile-1yjuyb\\CheckSymbolExists.c(8,19): warning C4996: 'strerror': This function or variable may be unsafe. Consider using strerror_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details. [C:\\Users\\boden\\Documents\\GitHub\\KKManager\\src\\CWrapperGen\\CMakeFiles\\CMakeScratch\\TryCompile-1yjuyb\\cmTC_a17c2.vcxproj]
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\boden\\Documents\\GitHub\\KKManager\\src\\CWrapperGen\\CMakeFiles\\CMakeScratch\\TryCompile-1yjuyb\\Debug\\cmTC_a17c2.exe" /INCREMENTAL /ILK:"cmTC_a17c2.dir\\Debug\\cmTC_a17c2.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/boden/Documents/GitHub/KKManager/src/CWrapperGen/CMakeFiles/CMakeScratch/TryCompile-1yjuyb/Debug/cmTC_a17c2.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/boden/Documents/GitHub/KKManager/src/CWrapperGen/CMakeFiles/CMakeScratch/TryCompile-1yjuyb/Debug/cmTC_a17c2.lib" /MACHINE:X64  /machine:x64 cmTC_a17c2.dir\\Debug\\CheckSymbolExists.obj
+          cmTC_a17c2.vcxproj -> C:\\Users\\boden\\Documents\\GitHub\\KKManager\\src\\CWrapperGen\\CMakeFiles\\CMakeScratch\\TryCompile-1yjuyb\\Debug\\cmTC_a17c2.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_a17c2.dir\\Debug\\cmTC_a17c2.tlog\\unsuccessfulbuild".
+          Touching "cmTC_a17c2.dir\\Debug\\cmTC_a17c2.tlog\\cmTC_a17c2.lastbuildstate".
+        Done Building Project "C:\\Users\\boden\\Documents\\GitHub\\KKManager\\src\\CWrapperGen\\CMakeFiles\\CMakeScratch\\TryCompile-1yjuyb\\cmTC_a17c2.vcxproj" (default targets).
+        
+        Build succeeded.
+        
+        "C:\\Users\\boden\\Documents\\GitHub\\KKManager\\src\\CWrapperGen\\CMakeFiles\\CMakeScratch\\TryCompile-1yjuyb\\cmTC_a17c2.vcxproj" (default target) (1) ->
+        (ClCompile target) -> 
+          C:\\Users\\boden\\Documents\\GitHub\\KKManager\\src\\CWrapperGen\\CMakeFiles\\CMakeScratch\\TryCompile-1yjuyb\\CheckSymbolExists.c(8,19): warning C4996: 'strerror': This function or variable may be unsafe. Consider using strerror_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details. [C:\\Users\\boden\\Documents\\GitHub\\KKManager\\src\\CWrapperGen\\CMakeFiles\\CMakeScratch\\TryCompile-1yjuyb\\cmTC_a17c2.vcxproj]
+        
+            1 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.64
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CheckCSourceCompiles.cmake:76 (cmake_check_source_compiles)"
+      - "vendor/src/unzipped/pcre2-10.42/CMakeLists.txt:153 (CHECK_C_SOURCE_COMPILES)"
+    checks:
+      - "Performing Test HAVE_REALPATH"
+    directories:
+      source: "C:/Users/boden/Documents/GitHub/KKManager/src/CWrapperGen/CMakeFiles/CMakeScratch/TryCompile-cafq51"
+      binary: "C:/Users/boden/Documents/GitHub/KKManager/src/CWrapperGen/CMakeFiles/CMakeScratch/TryCompile-cafq51"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_MODULE_PATH: "C:/Users/boden/Documents/GitHub/KKManager/src/vendor/src/unzipped/pcre2-10.42/cmake"
+    buildResult:
+      variable: "HAVE_REALPATH"
+      cached: true
+      stdout: |
+        Change Dir: C:/Users/boden/Documents/GitHub/KKManager/src/CWrapperGen/CMakeFiles/CMakeScratch/TryCompile-cafq51
+        
+        Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_23c4e.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+        Copyright (C) Microsoft Corporation. All rights reserved.
+        
+        Build started 4/29/2023 1:48:40 PM.
+        Project "C:\\Users\\boden\\Documents\\GitHub\\KKManager\\src\\CWrapperGen\\CMakeFiles\\CMakeScratch\\TryCompile-cafq51\\cmTC_23c4e.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_23c4e.dir\\Debug\\".
+          Creating directory "C:\\Users\\boden\\Documents\\GitHub\\KKManager\\src\\CWrapperGen\\CMakeFiles\\CMakeScratch\\TryCompile-cafq51\\Debug\\".
+          Creating directory "cmTC_23c4e.dir\\Debug\\cmTC_23c4e.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_23c4e.dir\\Debug\\cmTC_23c4e.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_REALPATH /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_23c4e.dir\\Debug\\\\" /Fd"cmTC_23c4e.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\boden\\Documents\\GitHub\\KKManager\\src\\CWrapperGen\\CMakeFiles\\CMakeScratch\\TryCompile-cafq51\\src.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30148 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          src.c
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_REALPATH /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_23c4e.dir\\Debug\\\\" /Fd"cmTC_23c4e.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\boden\\Documents\\GitHub\\KKManager\\src\\CWrapperGen\\CMakeFiles\\CMakeScratch\\TryCompile-cafq51\\src.c"
+        C:\\Users\\boden\\Documents\\GitHub\\KKManager\\src\\CWrapperGen\\CMakeFiles\\CMakeScratch\\TryCompile-cafq51\\src.c(3,50): error C2065: 'PATH_MAX': undeclared identifier [C:\\Users\\boden\\Documents\\GitHub\\KKManager\\src\\CWrapperGen\\CMakeFiles\\CMakeScratch\\TryCompile-cafq51\\cmTC_23c4e.vcxproj]
+        C:\\Users\\boden\\Documents\\GitHub\\KKManager\\src\\CWrapperGen\\CMakeFiles\\CMakeScratch\\TryCompile-cafq51\\src.c(3,50): error C2057: expected constant expression [C:\\Users\\boden\\Documents\\GitHub\\KKManager\\src\\CWrapperGen\\CMakeFiles\\CMakeScratch\\TryCompile-cafq51\\cmTC_23c4e.vcxproj]
+        C:\\Users\\boden\\Documents\\GitHub\\KKManager\\src\\CWrapperGen\\CMakeFiles\\CMakeScratch\\TryCompile-cafq51\\src.c(3,50): error C2466: cannot allocate an array of constant size 0 [C:\\Users\\boden\\Documents\\GitHub\\KKManager\\src\\CWrapperGen\\CMakeFiles\\CMakeScratch\\TryCompile-cafq51\\cmTC_23c4e.vcxproj]
+        C:\\Users\\boden\\Documents\\GitHub\\KKManager\\src\\CWrapperGen\\CMakeFiles\\CMakeScratch\\TryCompile-cafq51\\src.c(3,51): error C2133: 'buf': unknown size [C:\\Users\\boden\\Documents\\GitHub\\KKManager\\src\\CWrapperGen\\CMakeFiles\\CMakeScratch\\TryCompile-cafq51\\cmTC_23c4e.vcxproj]
+        C:\\Users\\boden\\Documents\\GitHub\\KKManager\\src\\CWrapperGen\\CMakeFiles\\CMakeScratch\\TryCompile-cafq51\\src.c(3,61): warning C4013: 'realpath' undefined; assuming extern returning int [C:\\Users\\boden\\Documents\\GitHub\\KKManager\\src\\CWrapperGen\\CMakeFiles\\CMakeScratch\\TryCompile-cafq51\\cmTC_23c4e.vcxproj]
+        Done Building Project "C:\\Users\\boden\\Documents\\GitHub\\KKManager\\src\\CWrapperGen\\CMakeFiles\\CMakeScratch\\TryCompile-cafq51\\cmTC_23c4e.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "C:\\Users\\boden\\Documents\\GitHub\\KKManager\\src\\CWrapperGen\\CMakeFiles\\CMakeScratch\\TryCompile-cafq51\\cmTC_23c4e.vcxproj" (default target) (1) ->
+        (ClCompile target) -> 
+          C:\\Users\\boden\\Documents\\GitHub\\KKManager\\src\\CWrapperGen\\CMakeFiles\\CMakeScratch\\TryCompile-cafq51\\src.c(3,61): warning C4013: 'realpath' undefined; assuming extern returning int [C:\\Users\\boden\\Documents\\GitHub\\KKManager\\src\\CWrapperGen\\CMakeFiles\\CMakeScratch\\TryCompile-cafq51\\cmTC_23c4e.vcxproj]
+        
+        
+        "C:\\Users\\boden\\Documents\\GitHub\\KKManager\\src\\CWrapperGen\\CMakeFiles\\CMakeScratch\\TryCompile-cafq51\\cmTC_23c4e.vcxproj" (default target) (1) ->
+        (ClCompile target) -> 
+          C:\\Users\\boden\\Documents\\GitHub\\KKManager\\src\\CWrapperGen\\CMakeFiles\\CMakeScratch\\TryCompile-cafq51\\src.c(3,50): error C2065: 'PATH_MAX': undeclared identifier [C:\\Users\\boden\\Documents\\GitHub\\KKManager\\src\\CWrapperGen\\CMakeFiles\\CMakeScratch\\TryCompile-cafq51\\cmTC_23c4e.vcxproj]
+          C:\\Users\\boden\\Documents\\GitHub\\KKManager\\src\\CWrapperGen\\CMakeFiles\\CMakeScratch\\TryCompile-cafq51\\src.c(3,50): error C2057: expected constant expression [C:\\Users\\boden\\Documents\\GitHub\\KKManager\\src\\CWrapperGen\\CMakeFiles\\CMakeScratch\\TryCompile-cafq51\\cmTC_23c4e.vcxproj]
+          C:\\Users\\boden\\Documents\\GitHub\\KKManager\\src\\CWrapperGen\\CMakeFiles\\CMakeScratch\\TryCompile-cafq51\\src.c(3,50): error C2466: cannot allocate an array of constant size 0 [C:\\Users\\boden\\Documents\\GitHub\\KKManager\\src\\CWrapperGen\\CMakeFiles\\CMakeScratch\\TryCompile-cafq51\\cmTC_23c4e.vcxproj]
+          C:\\Users\\boden\\Documents\\GitHub\\KKManager\\src\\CWrapperGen\\CMakeFiles\\CMakeScratch\\TryCompile-cafq51\\src.c(3,51): error C2133: 'buf': unknown size [C:\\Users\\boden\\Documents\\GitHub\\KKManager\\src\\CWrapperGen\\CMakeFiles\\CMakeScratch\\TryCompile-cafq51\\cmTC_23c4e.vcxproj]
+        
+            1 Warning(s)
+            4 Error(s)
+        
+        Time Elapsed 00:00:00.40
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CheckCSourceCompiles.cmake:76 (cmake_check_source_compiles)"
+      - "vendor/src/unzipped/pcre2-10.42/CMakeLists.txt:162 (CHECK_C_SOURCE_COMPILES)"
+    checks:
+      - "Performing Test HAVE_ATTRIBUTE_UNINITIALIZED"
+    directories:
+      source: "C:/Users/boden/Documents/GitHub/KKManager/src/CWrapperGen/CMakeFiles/CMakeScratch/TryCompile-qdhyqt"
+      binary: "C:/Users/boden/Documents/GitHub/KKManager/src/CWrapperGen/CMakeFiles/CMakeScratch/TryCompile-qdhyqt"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_MODULE_PATH: "C:/Users/boden/Documents/GitHub/KKManager/src/vendor/src/unzipped/pcre2-10.42/cmake"
+    buildResult:
+      variable: "HAVE_ATTRIBUTE_UNINITIALIZED"
+      cached: true
+      stdout: |
+        Change Dir: C:/Users/boden/Documents/GitHub/KKManager/src/CWrapperGen/CMakeFiles/CMakeScratch/TryCompile-qdhyqt
+        
+        Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_81de4.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+        Copyright (C) Microsoft Corporation. All rights reserved.
+        
+        Build started 4/29/2023 1:48:41 PM.
+        Project "C:\\Users\\boden\\Documents\\GitHub\\KKManager\\src\\CWrapperGen\\CMakeFiles\\CMakeScratch\\TryCompile-qdhyqt\\cmTC_81de4.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_81de4.dir\\Debug\\".
+          Creating directory "C:\\Users\\boden\\Documents\\GitHub\\KKManager\\src\\CWrapperGen\\CMakeFiles\\CMakeScratch\\TryCompile-qdhyqt\\Debug\\".
+          Creating directory "cmTC_81de4.dir\\Debug\\cmTC_81de4.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_81de4.dir\\Debug\\cmTC_81de4.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_ATTRIBUTE_UNINITIALIZED /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_81de4.dir\\Debug\\\\" /Fd"cmTC_81de4.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue  -Werror "C:\\Users\\boden\\Documents\\GitHub\\KKManager\\src\\CWrapperGen\\CMakeFiles\\CMakeScratch\\TryCompile-qdhyqt\\src.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30148 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_ATTRIBUTE_UNINITIALIZED /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_81de4.dir\\Debug\\\\" /Fd"cmTC_81de4.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue  -Werror "C:\\Users\\boden\\Documents\\GitHub\\KKManager\\src\\CWrapperGen\\CMakeFiles\\CMakeScratch\\TryCompile-qdhyqt\\src.c"
+        cl : command line error D8021: invalid numeric argument '/Werror' [C:\\Users\\boden\\Documents\\GitHub\\KKManager\\src\\CWrapperGen\\CMakeFiles\\CMakeScratch\\TryCompile-qdhyqt\\cmTC_81de4.vcxproj]
+        Done Building Project "C:\\Users\\boden\\Documents\\GitHub\\KKManager\\src\\CWrapperGen\\CMakeFiles\\CMakeScratch\\TryCompile-qdhyqt\\cmTC_81de4.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "C:\\Users\\boden\\Documents\\GitHub\\KKManager\\src\\CWrapperGen\\CMakeFiles\\CMakeScratch\\TryCompile-qdhyqt\\cmTC_81de4.vcxproj" (default target) (1) ->
+        (ClCompile target) -> 
+          cl : command line error D8021: invalid numeric argument '/Werror' [C:\\Users\\boden\\Documents\\GitHub\\KKManager\\src\\CWrapperGen\\CMakeFiles\\CMakeScratch\\TryCompile-qdhyqt\\cmTC_81de4.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:00.37
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CheckCSourceCompiles.cmake:76 (cmake_check_source_compiles)"
+      - "vendor/src/unzipped/pcre2-10.42/CMakeLists.txt:172 (CHECK_C_SOURCE_COMPILES)"
+    checks:
+      - "Performing Test INTEL_CET_ENABLED"
+    directories:
+      source: "C:/Users/boden/Documents/GitHub/KKManager/src/CWrapperGen/CMakeFiles/CMakeScratch/TryCompile-qmheqy"
+      binary: "C:/Users/boden/Documents/GitHub/KKManager/src/CWrapperGen/CMakeFiles/CMakeScratch/TryCompile-qmheqy"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_MODULE_PATH: "C:/Users/boden/Documents/GitHub/KKManager/src/vendor/src/unzipped/pcre2-10.42/cmake"
+    buildResult:
+      variable: "INTEL_CET_ENABLED"
+      cached: true
+      stdout: |
+        Change Dir: C:/Users/boden/Documents/GitHub/KKManager/src/CWrapperGen/CMakeFiles/CMakeScratch/TryCompile-qmheqy
+        
+        Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_7da47.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+        Copyright (C) Microsoft Corporation. All rights reserved.
+        
+        Build started 4/29/2023 1:48:42 PM.
+        Project "C:\\Users\\boden\\Documents\\GitHub\\KKManager\\src\\CWrapperGen\\CMakeFiles\\CMakeScratch\\TryCompile-qmheqy\\cmTC_7da47.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_7da47.dir\\Debug\\".
+          Creating directory "C:\\Users\\boden\\Documents\\GitHub\\KKManager\\src\\CWrapperGen\\CMakeFiles\\CMakeScratch\\TryCompile-qmheqy\\Debug\\".
+          Creating directory "cmTC_7da47.dir\\Debug\\cmTC_7da47.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_7da47.dir\\Debug\\cmTC_7da47.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D INTEL_CET_ENABLED /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_7da47.dir\\Debug\\\\" /Fd"cmTC_7da47.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\boden\\Documents\\GitHub\\KKManager\\src\\CWrapperGen\\CMakeFiles\\CMakeScratch\\TryCompile-qmheqy\\src.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30148 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          src.c
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D INTEL_CET_ENABLED /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_7da47.dir\\Debug\\\\" /Fd"cmTC_7da47.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\boden\\Documents\\GitHub\\KKManager\\src\\CWrapperGen\\CMakeFiles\\CMakeScratch\\TryCompile-qmheqy\\src.c"
+        C:\\Users\\boden\\Documents\\GitHub\\KKManager\\src\\CWrapperGen\\CMakeFiles\\CMakeScratch\\TryCompile-qmheqy\\src.c(2,1): fatal error C1189: #error:  CET is not enabled [C:\\Users\\boden\\Documents\\GitHub\\KKManager\\src\\CWrapperGen\\CMakeFiles\\CMakeScratch\\TryCompile-qmheqy\\cmTC_7da47.vcxproj]
+        Done Building Project "C:\\Users\\boden\\Documents\\GitHub\\KKManager\\src\\CWrapperGen\\CMakeFiles\\CMakeScratch\\TryCompile-qmheqy\\cmTC_7da47.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "C:\\Users\\boden\\Documents\\GitHub\\KKManager\\src\\CWrapperGen\\CMakeFiles\\CMakeScratch\\TryCompile-qmheqy\\cmTC_7da47.vcxproj" (default target) (1) ->
+        (ClCompile target) -> 
+          C:\\Users\\boden\\Documents\\GitHub\\KKManager\\src\\CWrapperGen\\CMakeFiles\\CMakeScratch\\TryCompile-qmheqy\\src.c(2,1): fatal error C1189: #error:  CET is not enabled [C:\\Users\\boden\\Documents\\GitHub\\KKManager\\src\\CWrapperGen\\CMakeFiles\\CMakeScratch\\TryCompile-qmheqy\\cmTC_7da47.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:00.39
+        
+      exitCode: 1
+...
